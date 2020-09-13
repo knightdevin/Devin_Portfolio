@@ -3,13 +3,17 @@ import {Helmet} from 'react-helmet'
 
 const About = () => {
   return (
-    <div id="about container" className="content">
+    <div id="about_container" className="content">
       <Helmet>
         <title>Devin Knight | About </title>
       </Helmet>
       <br />
-      <h1> Hi There!</h1>
-      <h3>INSERT PHOTO HERE!!</h3>
+      <h2> Hi There!</h2>
+      <h5>(NOTE: Photo LinkedIn Link...Need img from LOCAL file!)</h5>
+      <img
+        className="profile_photo"
+        src="https://media-exp1.licdn.com/dms/image/C4E03AQG0jHYiij1B8w/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=PynXeHxRxzJnD0N8onOD-HfqmsILUvKsQyLL53PgkJ8"
+      />
       <h4 id="about_me">
         My name is Devin Knight. I built a career as a media expert in a journey
         that began as a television reporter. That eventually led to media

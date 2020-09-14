@@ -44,3 +44,49 @@ form div {
   flex-wrap: wrap;
   background-color: #c3c3c2;
 }
+
+.pastLife-skillsBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.typewriter {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+.criticalThinking {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+.problemSolving {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+.communication {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+.teamWork {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+.reelsBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reelIcon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+}

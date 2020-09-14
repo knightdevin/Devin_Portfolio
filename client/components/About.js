@@ -24,15 +24,13 @@ const About = () => {
         I've always been interested in how to tell and share stories. As media
         continued to change, I got more involved with the technical side of
         production to create and share content (ex: using non-linear editing
-        software, electronic news gathering software, etc.).
-      </h4>
-      <h4 id="about_me">
-        I became curious about how programs work and started experimenting with
-        Python and later JS. I really enjoyed puzzling out how all the code fits
-        together. Eventually, I enrolled in bootcamp prep courses and earned
-        admittance to Fullstack Academy's software engineering program. I now
-        look forward to working with a team that enjoys collaborating about
-        making better, user-friendly software .
+        software, electronic news gathering software, etc.). I became curious
+        about how programs work and started experimenting with Python and later
+        JS. I really enjoyed puzzling out how all the code fits together.
+        Eventually, I enrolled in bootcamp prep courses and earned admittance to
+        Fullstack Academy's software engineering program. I now look forward to
+        working with a team that enjoys collaborating about making better,
+        user-friendly software .
       </h4>
     </div>
   )

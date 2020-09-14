@@ -11,7 +11,6 @@ const Projects = () => {
       <h2> PROJECTS HERE</h2>
       <h4>ONE:</h4>
       <h4>TWO:</h4>
-      <h4>THREE:</h4>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 import {Route, Switch} from 'react-router-dom'
 // import {withRouter} from 'react router'
 // import PropTypes from 'prop-types'
-import {About, Login, Signup, UserHome} from './components'
+import {About, PastLife, Contact, Login, Signup, UserHome} from './components'
 // import {me} from './store'
 
 export default class Routes extends Component {
@@ -11,7 +11,8 @@ export default class Routes extends Component {
     return (
       <Switch>
         <Route path="/about" component={About} />
-
+        <Route path="/past-life" component={PastLife} />
+        <Route path="/contact" component={Contact} />
         <Route exact path="/" component={About} />
       </Switch>
     )

@@ -39,11 +39,11 @@ const PastLife = () => {
       </h4>
       <h3>Skills</h3>
       <div className="pastLife-skillsBox">
-        <img src="/clipart267305.png" className="communication" />
-        <img src="/clipart2394865.png" className="problemSolving" />
-        <img src="/clipart873321.png" className="criticalThinking" />
-        <img src="/clipart3304011.png" className="typewriter" />
-        <img src="/clipart2393774.png" className="teamWork" />
+        <img src="/icons/clipart267305.png" className="communication" />
+        <img src="/icons/clipart2394865.png" className="problemSolving" />
+        <img src="/icons/clipart873321.png" className="criticalThinking" />
+        <img src="/icons/clipart3304011.png" className="typewriter" />
+        <img src="/icons/clipart2393774.png" className="teamWork" />
       </div>
       <h3>Sample of Published News Stories</h3>
       <div className="newsBox">

@@ -107,13 +107,13 @@ const PastLife = () => {
       <h3>Producer and Reporter Reels</h3>
       <div className="reelsBox">
         <a href="https://drive.google.com/file/d/1nIT-LB4SCEAIr7G4-eUi6ViP_FHYa8KP/view">
-          <img src="/ProducerReelPhoto.png" className="reelIcon" />
+          <img src="/photos/ProducerReelPhoto.png" className="reelIcon" />
         </a>
         <a href="https://vimeo.com/113738830">
-          <img src="/ReporterReelPhoto.png" className="reelIcon" />
+          <img src="/photos/ReporterReelPhoto.png" className="reelIcon" />
         </a>
         <a href="https://vimeo.com/119456470">
-          <img src="/ReporterReelPhoto2.png" className="reelIcon" />
+          <img src="/photos/ReporterReelPhoto2.png" className="reelIcon" />
         </a>
       </div>
       <h3>Awards</h3>

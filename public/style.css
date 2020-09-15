@@ -135,6 +135,12 @@ form div {
   border: 1px solid gray;
 }
 
+.luciferGamePhoto {
+  height: 200px;
+  width: 270px;
+  border: 1px solid gray;
+}
+
 /* ================= CONTACT PAGE STYLES ================= */
 
 .contactLinkBox {

@@ -115,6 +115,7 @@ form div {
 
 .projectBox {
   width: 400px;
+  height: 700px;
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
@@ -125,20 +126,28 @@ form div {
 
 .bramblePhoto {
   height: 200px;
-  width: 300px;
+  width: 280px;
   border: 1px solid gray;
 }
 
 .hobbyShopperPhoto {
   height: 200px;
-  width: 300px;
+  width: 280px;
   border: 1px solid gray;
 }
 
 .luciferGamePhoto {
   height: 200px;
-  width: 270px;
+  width: 275px;
   border: 1px solid gray;
+}
+
+.projectBox:hover {
+  opacity: 0.8;
+  background-color: rgb(157, 165, 165);
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
+    rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.025);
 }
 
 /* ================= TECH BLOGS STYLES ================= */

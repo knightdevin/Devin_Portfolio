@@ -51,7 +51,7 @@ const Projects = () => {
         <div className="projectBox">
           <h2>Lucifer Game: IN PROGRESS</h2>
           <h4>Sole Frontend Developer, 2020</h4>
-          <a href="">
+          <a>
             <img
               src="/photos/Lucifer Game Screenshot.jpg"
               className="luciferGamePhoto"
@@ -59,11 +59,11 @@ const Projects = () => {
           </a>
           <p>
             Fans of one of Netflix's most popular shows can buckle up for this
-            this multi-level game centered around Lucifer Morningstar and
-            Detective Chloe Decker. The retro style arcade levels challenge
-            players to survive L.A. traffic as they drive the main characters to
-            crime scenes. The game is built using Object Oriented Programming
-            through the Phaser 3 JavaScript framework.
+            multi-level game centered around Lucifer Morningstar and Detective
+            Chloe Decker. The retro style arcade levels challenge players to
+            survive L.A. traffic as they drive the main characters to crime
+            scenes. The game is built using Object Oriented Programming through
+            the Phaser 3 JavaScript framework.
           </p>
           <h4>Lucifer Video Game Data Ecosystem:</h4>
           <p>

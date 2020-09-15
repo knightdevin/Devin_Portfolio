@@ -66,7 +66,9 @@ class Navbar extends React.Component {
             <Link to="/projects">Projects</Link>
           </div>
           <div>Skills</div>
-          <div>Education and Experience</div>
+          <div>
+            <Link to="/education-experience">Education and Experience</Link>
+          </div>
           <div>
             <Link to="/past-life">Past Life</Link>
           </div>

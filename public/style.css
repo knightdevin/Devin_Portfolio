@@ -37,7 +37,7 @@ form div {
   border-style: solid;
   border-width: 3px;
   border-color: #337a8c;
-  height: 400px;
+  height: 300px;
 }
 
 #navbar {
@@ -99,7 +99,7 @@ form div {
   display: flex;
   justify-content: space-evenly;
   width: 80%;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 .projectBox {
@@ -122,4 +122,49 @@ form div {
   height: 200px;
   width: 300px;
   border: 1px solid gray;
+}
+
+.contactLinkBox {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 2%;
+}
+
+.contact_link {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* Education & Experience styles */
+
+.expAndEduBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid red;
+}
+
+.edu_img {
+  height: 90px;
+  width: 250px;
+}
+
+.nameOfPlace {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-style: italic;
+}
+
+.responsibilities {
+  font-size: 13.28px;
+  align-self: flex-start;
+}
+
+.bullet {
+  margin-top: 7px;
+  margin-bottom: 7px;
 }

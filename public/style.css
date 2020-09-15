@@ -20,6 +20,11 @@ form div {
   display: inline-block;
 }
 
+#contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* ================= ABOUT ME STYLES =================*/
 
 #about_container {
@@ -149,7 +154,7 @@ form div {
   flex-direction: column;
   align-items: center;
   border: 1px solid gray;
-  width: 80%;
+  width: 70%;
 }
 
 .edu_img {

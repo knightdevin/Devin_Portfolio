@@ -13,7 +13,7 @@ const ExpAndEdu = () => {
         <h2 className="nameOfPlace">Fullstack Academy - New York City</h2>
         <img
           className="edu_img"
-          src="/fullstack-academy-logo-color-on-white.png"
+          src="/logos/fullstack-academy-logo-color-on-white.png"
         />
         <h4 className="title">Software Engineering Student (2020)</h4>
         <ul className="responsibilities">
@@ -30,7 +30,7 @@ const ExpAndEdu = () => {
       </div>
       <div className="expAndEduBox">
         <h2 className="nameOfPlace">New York University</h2>
-        <img className="edu_img" src="/nyu.png" />
+        <img className="edu_img" src="/logos/nyu.png" />
         <h4 className="title">
           Master of Science - Relations and Corporate Communications (2017)
         </h4>
@@ -56,7 +56,7 @@ const ExpAndEdu = () => {
       <div className="expAndEduBox">
         <h2 className="nameOfPlace">California State University Northridge</h2>
 
-        <img className="edu_img" src="/Seal-CSUN-Horizontal-186.png" />
+        <img className="edu_img" src="/logos/Seal-CSUN-Horizontal-186.png" />
         <h4 className="title">Bachelor of Arts - JournalismGrade (2012)</h4>
         <ul className="responsibilities">
           <li className="bullet">

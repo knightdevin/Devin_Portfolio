@@ -141,6 +141,18 @@ form div {
   border: 1px solid gray;
 }
 
+/* ================= TECH BLOGS STYLES ================= */
+
+.articleBox {
+  width: 500px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* ================= CONTACT PAGE STYLES ================= */
 
 .contactLinkBox {

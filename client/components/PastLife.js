@@ -10,7 +10,7 @@ const PastLife = () => {
       </Helmet>
       <br />
       <h2> My Pre-Coding Career </h2>
-      <h4>
+      {/* <h4>
         Technology is paramount to the media industry. In the Public Relations
         world, public officials and company leaders look to publicists and
         communications strategists to disseminate vital information through
@@ -21,7 +21,7 @@ const PastLife = () => {
         assemble visual stories. Journalists and Public Relations professionals
         work hand in hand through the good and bad stories about companies and
         elected officials.
-      </h4>
+      </h4> */}
       <h4>
         I have had unique opportunities to work within many positions in the
         media spectrum. As a broadcast reporter, I leveraged different media and

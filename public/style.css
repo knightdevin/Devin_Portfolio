@@ -28,6 +28,10 @@ form div {
   align-items: center;
 }
 
+.profilePhotosBox {
+  display: flex;
+}
+
 .profile_photo {
   border-radius: 175px;
   border-style: solid;

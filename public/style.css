@@ -148,11 +148,26 @@ form div {
   align-items: center;
   /* justify-content: space-around; */
   padding-left: 2%;
+  margin: 1%;
 }
 
 .contact_link {
   padding-left: 2%;
   padding-right: 2%;
+  align-self: center;
+  margin: 10px;
+  color: black;
+  font-size: x-large;
+}
+
+.contactLogo {
+  height: 60px;
+}
+
+.contactMe {
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 /* ================= EDUCATION & EXPERIENCES STYLES =================*/

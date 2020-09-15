@@ -8,9 +8,9 @@ const Contact = () => {
         <title>Devin Knight | Contact </title>
       </Helmet>
       <br />
-      <h2> MY CONTACT INFO</h2>
+      <h1 className="contactMe">My Contact Info</h1>
       <div className="contactLinkBox">
-        <h4>LinkedIn:</h4>
+        <img className="contactLogo" src="logos/linkedin-logo-3.png" />
         <a
           className="contact_link"
           href="https://www.linkedin.com/in/devinknight/"
@@ -19,20 +19,20 @@ const Contact = () => {
         </a>
       </div>
       <div className="contactLinkBox">
-        <h4>GitHub:</h4>
+        <img className="contactLogo" src="/logos/github - 25231.png" />
         <a className="contact_link" href="https://github.com/knightdevin">
           https://github.com/knightdevin
         </a>
       </div>
       <div className="contactLinkBox">
-        <h4>Email:</h4>
-        <a className="contact_link" href="knightdevin@hotmail.com">
+        <img className="contactLogo" src="/logos/clipart316850.png" />
+        <a className="contact_link" href="mailto:knightdevin@hotmail.com">
           knightdevin@hotmail.com
         </a>
-        |
+        {/* |
         <a className="contact_link" href="dlk378@nyu.edu">
           dlk378@nyu.edu
-        </a>
+        </a> */}
       </div>
     </div>
   )

@@ -9,7 +9,6 @@ const About = () => {
       </Helmet>
       <br />
       <h2> Hi There!</h2>
-      <h5>(NOTE: Photo LinkedIn Link...Need img from LOCAL file!)</h5>
       <div className="profilePhotosBox">
         <img
           className="profile_photo"

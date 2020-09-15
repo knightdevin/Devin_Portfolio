@@ -90,3 +90,32 @@ form div {
   margin-bottom: 10px;
   height: 150px;
 }
+
+.projectsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  border: 1px solid gray;
+}
+
+.projectBox {
+  width: 400px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bramblePhoto {
+  height: 200px;
+  width: 300px;
+  border: 1px solid gray;
+}
+
+.hobbyShopperPhoto {
+  height: 200px;
+  width: 300px;
+  border: 1px solid gray;
+}

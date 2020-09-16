@@ -14,13 +14,20 @@ const Contact = () => {
         <a
           className="contact_link"
           href="https://www.linkedin.com/in/devinknight/"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           https://www.linkedin.com/in/devinknight/
         </a>
       </div>
       <div className="contactLinkBox">
         <img className="contactLogo" src="/logos/github - 25231.png" />
-        <a className="contact_link" href="https://github.com/knightdevin">
+        <a
+          className="contact_link"
+          href="https://github.com/knightdevin"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           https://github.com/knightdevin
         </a>
       </div>

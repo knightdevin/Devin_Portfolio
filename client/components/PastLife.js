@@ -45,8 +45,6 @@ const PastLife = () => {
         <img src="/icons/clipart3304011.png" className="typewriter" />
         <img src="/icons/clipart2393774.png" className="teamWork" />
       </div>
-      <h3>Sample of Published News Stories</h3>
-      <div className="newsBox"></div>
 
       <h3>Producer and Reporter Reels</h3>
       <div className="reelsBox">
@@ -75,6 +73,12 @@ const PastLife = () => {
           <img src="/photos/ReporterReelPhoto2.png" className="reelIcon" />
         </a>
       </div>
+      <h3>
+        <Link to="/publications">
+          Click here for Sample of Published News Stories
+        </Link>
+      </h3>
+      <div className="newsBox"></div>
       <h3>Awards</h3>
     </div>
   )

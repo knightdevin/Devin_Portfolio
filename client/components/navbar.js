@@ -49,13 +49,7 @@ class Navbar extends React.Component {
         </div>
       ) : ( */}
           <div>
-            <NavLink
-              id="about_nav"
-              className={aboutHov}
-              onMouseOver={this.onHover}
-              onMouseOut={this.offHover}
-              to="/about"
-            >
+            <NavLink to="/about" className="navLink">
               About Me
               {/* The navbar will show these links before you log in */}
               {/* <Link to="/login">Login</Link>
@@ -63,20 +57,33 @@ class Navbar extends React.Component {
             </NavLink>
           </div>
           <div>
-            <Link to="/projects">Projects</Link>
-          </div>
-          <div>Skills</div>
-          <div>
-            <Link to="/publications">Publications</Link>
+            <Link to="/projects" className="navLink">
+              Projects
+            </Link>
           </div>
           <div>
-            <Link to="/education-experience">Education and Experience</Link>
+            <Link className="navLink">Skills</Link>
+          </div>
+
+          <div>
+            <Link to="/publications" className="navLink">
+              Publications
+            </Link>
           </div>
           <div>
-            <Link to="/past-life">Past Life</Link>
+            <Link to="/education-experience" className="navLink">
+              Education and Experience
+            </Link>
           </div>
           <div>
-            <Link to="/contact">Contact</Link>
+            <Link to="/past-life" className="navLink">
+              Past Life
+            </Link>
+          </div>
+          <div>
+            <Link to="/contact" className="navLink">
+              Contact
+            </Link>
           </div>
           {/* // )} */}
         </nav>

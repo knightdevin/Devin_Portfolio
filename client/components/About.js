@@ -14,7 +14,7 @@ const About = () => {
           className="profile_photo"
           src="https://media-exp1.licdn.com/dms/image/C4E03AQG0jHYiij1B8w/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=PynXeHxRxzJnD0N8onOD-HfqmsILUvKsQyLL53PgkJ8"
         />
-        <img className="profile_photo" src="/photos/IMG_3633.jpg" />
+        {/* <img className="profile_photo" src="/photos/IMG_3633.jpg" /> */}
       </div>
       <h4 id="about_me">
         My name is Devin Knight. I built a career as a media expert in a journey

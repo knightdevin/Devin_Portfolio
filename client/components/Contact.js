@@ -8,6 +8,7 @@ const Contact = () => {
         <title>Devin Knight | Contact </title>
       </Helmet>
       <br />
+      <img className="profile_photo" src="/photos/IMG_3633.jpg" />
       <h1 className="contactMe">My Contact Info</h1>
       <div className="contactLinkBox">
         <img className="contactLogo" src="logos/linkedin-logo-3.png" />

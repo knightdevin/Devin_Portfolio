@@ -22,20 +22,19 @@ nav a {
 }
 
 #navbar {
-  /* display: flex;
-  flex-wrap: wrap;*/
-
   display: flex;
+  flex-wrap: wrap;
   font-family: Courier New;
   background-color: #c3c3c2;
   color: white;
-  justify-content: space-evenly;
-  height: 45px;
+  justify-content: center;
+  height: 50px;
   align-items: center;
-  padding-left: 22%;
-  padding-right: 22%;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+
   /* min-width: 100%; */
-  /* box-shadow: 0px 10px 12px 0px rgb(0, 0, 0); */
+  box-shadow: 0px 10px 12px 0px rgb(38, 38, 38);
   /* z-index: 2; */
 }
 
@@ -145,6 +144,9 @@ form div {
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+    rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  transition: all 500ms;
 }
 
 .bramblePhoto {

@@ -15,6 +15,10 @@ nav a {
   margin: 1em;
 }
 
+.navLink {
+  transition: all 500ms;
+}
+
 .navLink:hover {
   text-shadow: rgba(237, 238, 238, 0.226) 0px 0.35em 1.175em,
     rgba(237, 238, 238, 0.212) 0px 0.175em 0.5em;

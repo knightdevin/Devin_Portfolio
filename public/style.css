@@ -116,6 +116,7 @@ form div {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 150px;
+  transition: all 500ms;
 }
 
 .reelIcon:hover {

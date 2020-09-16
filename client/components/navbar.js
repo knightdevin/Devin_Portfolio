@@ -72,7 +72,7 @@ class Navbar extends React.Component {
           </div>
           <div>
             <Link to="/education-experience" className="navLink">
-              Education and Experience
+              Education & Experience
             </Link>
           </div>
           <div>

@@ -80,6 +80,44 @@ const PastLife = () => {
       </h3>
       <div className="newsBox"></div>
       <h3>Awards</h3>
+
+      <ul>
+        2013 Golden Mike Award - Best Radio Government & Political Reporting
+        <ul>
+          Awarded by the Radio & Television News Association of Southern
+          California for a feature story that aired on KCSN 88.5FM about
+          California Proposition 30, a November Ballot Initiative.
+        </ul>
+        <ul>
+          <a
+            className="react-router__link"
+            href="https://www.csun.edu/mike-curb-arts-media-communication/journalism/news/kcsn-reporters-alumni-win-golden-mike-awards"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Press coverage of award
+          </a>
+        </ul>
+      </ul>
+
+      <ul>
+        2012 Golden Mike Award - Best Radio Newscast Writing
+        <ul>
+          Awarded by the Radio & Television News Association of Southern
+          Caulfornia for the "Evening Update" newscast writing that aired
+          September 12, 2012 on KCSN 88.5FM.
+        </ul>
+        <ul>
+          <a
+            className="react-router__link"
+            href="https://csunshinetoday.csun.edu/university-news/kcsn-news-wins-two-golden-mike-awards/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Press coverage of award
+          </a>
+        </ul>
+      </ul>
     </div>
   )
 }

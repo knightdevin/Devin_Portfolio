@@ -23,23 +23,25 @@ const TechPublications = () => {
         target="_blank"
       >
         <div className="articleBox">
-          <h2>A Better Way To Fill Your Database Tables With Random Data</h2>
+          {/* <h2>A Better Way To Fill Your Database Tables With Random Data</h2>
           <h4>
             Take the headache out of managing a seed file with a simple
             JavaScript library
           </h4>
-          {/* <StyledArticles href="https://blog.usejournal.com/a-better-way-to-fill-your-database-tables-with-random-data-714da8afd061"> */}
           <img
             src="/photos/ArticledatabasePhoto.png"
             className="hobbyShopperPhoto"
           />
-          {/* </StyledArticles> */}
           <p>
             So you’re developing an idea for a new app or website. Maybe you and
             your colleagues just wrapped up a big planning session. Everyone
             knows what the app is, who will be using it and what it will be used
             for. High-fives all around, right?
-          </p>
+          </p> */}
+          <img
+            src="/photos/DatabaseMediumArticleImage.png"
+            className="techArticle"
+          />
         </div>
       </StyledArticles>
       <h1 className="contactMe">Sample of Published News Stories</h1>

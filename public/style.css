@@ -120,6 +120,12 @@ form div {
   height: 100px;
 }
 
+.publicSpeaking {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
 .reelsBox {
   display: flex;
   justify-content: space-evenly;

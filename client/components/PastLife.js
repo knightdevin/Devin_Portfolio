@@ -43,6 +43,7 @@ const PastLife = () => {
         <img src="/icons/clipart2394865.png" className="problemSolving" />
         <img src="/icons/clipart873321.png" className="criticalThinking" />
         <img src="/icons/clipart3304011.png" className="typewriter" />
+        <img src="/icons/clipart2411525.png" className="publicSpeaking" />
         <img src="/icons/clipart2393774.png" className="teamWork" />
       </div>
 

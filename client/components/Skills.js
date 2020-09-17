@@ -200,13 +200,91 @@ class Skills extends React.Component {
           </div>
           <div className="subSkills_box">
             <h2>Transferrable Skills</h2>
-            <div>
-              <img src="/icons/clipart267305.png" className="skill_img" />
-              <img src="/icons/clipart873321.png" className="skill_img" />
-              <img src="/icons/clipart2393774.png" className="skill_img" />
-              <img src="/icons/clipart2394865.png" className="skill_img" />
-              <img src="/icons/clipart2411525.png" className="skill_img" />
-              <img src="/icons/clipart3304011.png" className="skill_img" />
+            <div className="subSkills_iconsBox">
+              <div className="single_skill">
+                <img
+                  id="communication"
+                  src="/icons/clipart267305.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.communication ? (
+                  <p className="skill_name">Communication</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="criticalThinking"
+                  src="/icons/clipart873321.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.criticalThinking ? (
+                  <p className="skill_name">Critical Thinking</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="collaboration"
+                  src="/icons/clipart2393774.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.collaboration ? (
+                  <p className="skill_name">Collaboration</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="problemSolving"
+                  src="/icons/clipart2394865.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.problemSolving ? (
+                  <p className="skill_name">Problem Solving</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="presentations"
+                  src="/icons/clipart2411525.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.presentations ? (
+                  <p className="skill_name">Public Speaking</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="writing"
+                  src="/icons/clipart3304011.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.writing ? (
+                  <p className="skill_name">Writing</p>
+                ) : (
+                  <br />
+                )}
+              </div>
             </div>
           </div>
         </div>

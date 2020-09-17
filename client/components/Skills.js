@@ -9,18 +9,19 @@ class Skills extends React.Component {
     this.offHover = this.offHover.bind(this)
   }
 
-  onHover(e) {
+  onHover(event) {
     this.setState({
-      [e.target.id]: true,
+      [event.target.id]: true,
     })
   }
 
-  offHover(e) {
+  offHover(event) {
     this.setState({
-      [e.target.id]: false,
+      [event.target.id]: false,
     })
   }
 
+  // eslint-disable-next-line complexity
   render() {
     return (
       <div>
@@ -30,41 +31,151 @@ class Skills extends React.Component {
         <div className="skillsBox">
           <div className="subSkills_box">
             <h2>Proficient</h2>
-            <div>
-              <img
-                src="/logos/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
-                className="skill_img"
-              />
-              <img
-                src="/logos/react-f34770503b90f26ea389f557500ff825.png"
-                className="skill_img"
-              />
-              <img src="/logos/sequelize-1175001.png" className="skill_img" />
-              <img src="/logos/postgres-unnamed.png" className="skill_img" />
-              <img
-                src="/logos/css3-logo-png-transparent-1.png"
-                className="skill_img"
-              />
-              <img
-                src="/logos/html5-logo-image-logo-html-7.png"
-                className="skill_img"
-              />
-              <img
-                src="/logos/1_B8WRf-Yp1cSW1-VfptkmGQ.png"
-                className="skill_img"
-              />
-              <img src="/logos/Git-Icon-Black.png" className="skill_img" />
-              <img src="/logos/github - 25231.png" className="skill_img" />
-
-              <img
-                src="/logos/node-1200px-Node.js_logo.svg.png"
-                className="skill_img"
-              />
-              <img
-                src="/logos/express-js-png-5-png-image-expressjs-png-800_800.png"
-                className="skill_img"
-              />
+            <div className="subSkills_iconsBox">
+              <div className="single_skill">
+                <img
+                  id="js"
+                  src="/logos/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.js ? (
+                  <p className="skill_name">JavaScript</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="react"
+                  src="/logos/react-f34770503b90f26ea389f557500ff825.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.react ? (
+                  <p className="skill_name">React</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="seq"
+                  src="/logos/sequelize-1175001.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.seq ? (
+                  <p className="skill_name">Sequelize</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="postgres"
+                  src="/logos/postgres-unnamed.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.postgres ? (
+                  <p className="skill_name">Postgres</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="css"
+                  src="/logos/css3-logo-png-transparent-1.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.css ? <p className="skill_name">CSS</p> : <br />}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="html"
+                  src="/logos/html5-logo-image-logo-html-7.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.html ? <p className="skill_name">HTML</p> : <br />}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="phaser"
+                  src="/logos/1_B8WRf-Yp1cSW1-VfptkmGQ.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.phaser ? (
+                  <p className="skill_name">Phaser 3</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="git"
+                  src="/logos/Git-Icon-Black.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.git ? <p className="skill_name">Git</p> : <br />}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="github"
+                  src="/logos/github - 25231.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.github ? (
+                  <p className="skill_name">Github</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="node"
+                  src="/logos/node-1200px-Node.js_logo.svg.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.node ? (
+                  <p className="skill_name">Node.js</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="express"
+                  src="/logos/express-js-png-5-png-image-expressjs-png-800_800.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.express ? (
+                  <p className="skill_name">Express.js</p>
+                ) : (
+                  <br />
+                )}
+              </div>
             </div>
+            <br />
           </div>
           <div className="subSkills_box">
             <h2>Knowledgable</h2>

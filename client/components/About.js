@@ -10,7 +10,7 @@ const AboutParagraph = styled.h4`
 const About = () => {
   return (
     <div id="about_container" className="aboutBox">
-      <div classname="heading">
+      <div>
         <Helmet>
           <title>Devin Knight | About </title>
         </Helmet>

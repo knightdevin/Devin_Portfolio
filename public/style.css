@@ -29,7 +29,7 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  background-color: #c3c3c2;
+  background-color: #90c4eb;
   color: white;
   justify-content: center;
   height: 50px;
@@ -76,10 +76,6 @@ form div {
   border-width: 3px;
   border-color: #337a8c;
   height: 300px;
-}
-
-.heading {
-  background-color: #337a8c;
 }
 
 /* ================= PAST LIFE STYLES =================*/
@@ -364,7 +360,7 @@ form div {
 /* ================= FOOTER STYLES =================*/
 
 .footer {
-  background-color: #c3c3c2;
+  background-color: #90c4eb;
   color: black;
   width: 100%;
   text-align: center;

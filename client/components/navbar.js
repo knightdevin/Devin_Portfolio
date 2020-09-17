@@ -6,7 +6,11 @@ import styled from 'styled-components'
 
 // import {logout} from '../store'
 
-const MainHeading = styled.h1`
+const SiteHeading = styled.div`
+  background-color: #5298dd;
+`
+
+const NameText = styled.h1`
   text-align: center;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: xxx-large;
@@ -43,8 +47,8 @@ class Navbar extends React.Component {
       ? 'nav_item select_nav'
       : 'nav_item'
     return (
-      <div>
-        <MainHeading>Devin Knight</MainHeading>
+      <SiteHeading>
+        <NameText>Devin Knight</NameText>
         <nav id="navbar">
           {/* {isLoggedIn ? ( */}
           {/* <div> */}
@@ -97,7 +101,7 @@ class Navbar extends React.Component {
           {/* // )} */}
         </nav>
         <hr />
-      </div>
+      </SiteHeading>
     )
   }
 }

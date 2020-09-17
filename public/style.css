@@ -76,9 +76,18 @@ form div {
 
 /* ================= PAST LIFE STYLES =================*/
 
+#pastCareer_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
 .pastLife-skillsBox {
   display: flex;
+  justify-content: center;
   justify-content: space-evenly;
+  width: 75%;
+  border: red solid;
 }
 
 .typewriter {
@@ -114,6 +123,7 @@ form div {
 .reelsBox {
   display: flex;
   justify-content: space-evenly;
+  /* width: 80%; */
 }
 
 .reelIcon {
@@ -121,6 +131,7 @@ form div {
   margin-bottom: 10px;
   height: 150px;
   transition: all 500ms;
+  border: 1px solid gray;
 }
 
 .reelIcon:hover {
@@ -180,7 +191,41 @@ form div {
   transform: translateY(-3px) scale(1.025);
 }
 
-/* ================= TECH BLOGS STYLES ================= */
+/* ================= SKILLS STYLES ================= */
+
+.skillsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subSkills_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.skill_img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+.redux_skill {
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  /* height: 100px; */
+
+  object-fit: cover;
+  object-position: 100% 0;
+
+  /* width: 300px; */
+  height: 120px;
+}
+
+/* ================= PUBLICATIONS STYLES ================= */
 
 .articleBox {
   width: 700px;

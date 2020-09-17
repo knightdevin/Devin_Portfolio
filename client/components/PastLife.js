@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const PastLife = () => {
   return (
-    <div id="pastCareer_container" className="content">
+    <div id="pastCareer_container">
       <Helmet>
         <title>Devin Knight | Past Life </title>
       </Helmet>
@@ -37,7 +37,7 @@ const PastLife = () => {
         Many of the skills from my media background are transferrable to the
         tech-industry.
       </h4>
-      <h3>Skills</h3>
+      <h3>Transferable Skills</h3>
       <div className="pastLife-skillsBox">
         <img src="/icons/clipart267305.png" className="communication" />
         <img src="/icons/clipart2394865.png" className="problemSolving" />

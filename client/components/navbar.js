@@ -2,8 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import {NavLink, Link} from 'react-router-dom'
+import styled from 'styled-components'
 
 // import {logout} from '../store'
+
+const MainHeading = styled.h1`
+  text-align: center;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: xxx-large;
+`
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -37,7 +44,7 @@ class Navbar extends React.Component {
       : 'nav_item'
     return (
       <div>
-        <h1>Devin Knight</h1>
+        <MainHeading>Devin Knight</MainHeading>
         <nav id="navbar">
           {/* {isLoggedIn ? ( */}
           {/* <div> */}

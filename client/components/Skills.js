@@ -40,11 +40,7 @@ class Skills extends React.Component {
                   onMouseOver={this.onHover}
                   onMouseOut={this.offHover}
                 />
-                {this.state.js ? (
-                  <p className="skill_name">JavaScript</p>
-                ) : (
-                  <br />
-                )}
+                {this.state.js && <p className="skill_name">JavaScript</p>}
               </div>
               <div className="single_skill">
                 <img

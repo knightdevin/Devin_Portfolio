@@ -20,6 +20,12 @@ const AwardsBox = styled.div`
   display: flex;
   width: 70%;
 `
+const SingleAward = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 // ===============================================================
 
 const PastLife = () => {
@@ -105,19 +111,14 @@ const PastLife = () => {
           <img src="/photos/ReporterReelPhoto2.png" className="reelIcon" />
         </a>
       </div>
-      <h3>
-        <Link to="/publications">
-          Click here for Sample of Published News Stories
-        </Link>
-      </h3>
       <h3>Awards</h3>
       <AwardsBox>
-        <ul>
-          2013 Golden Mike Award - Best Radio Government & Political Reporting
+        <SingleAward>
+          2013 Golden Mike Award - Best Radio Govt. & Political Reporting
           <ul>
             Awarded by the Radio & Television News Association of Southern
-            California for a feature story that aired on KCSN 88.5FM about
-            California Proposition 30, a November Ballot Initiative.
+            California for a feature story that aired on KCSN 88.5FM about a
+            November Ballot Initiative.
           </ul>
           <ul>
             <a
@@ -129,13 +130,13 @@ const PastLife = () => {
               Press coverage of award
             </a>
           </ul>
-        </ul>
+        </SingleAward>
 
-        <ul>
+        <SingleAward>
           2012 Golden Mike Award - Best Radio Newscast Writing
           <ul>
             Awarded by the Radio & Television News Association of Southern
-            Caulfornia for the "Evening Update" newscast writing that aired
+            California for the "Evening Update" newscast writing that aired
             September 12, 2012 on KCSN 88.5FM.
           </ul>
           <ul>
@@ -148,8 +149,13 @@ const PastLife = () => {
               Press coverage of award
             </a>
           </ul>
-        </ul>
+        </SingleAward>
       </AwardsBox>
+      <h3>
+        <Link to="/publications">
+          Click here for Sample of Published News Stories
+        </Link>
+      </h3>
     </div>
   )
 }

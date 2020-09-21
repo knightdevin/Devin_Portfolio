@@ -410,14 +410,14 @@ form div {
 /* ================= FOOTER STYLES =================*/
 
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #90c4eb;
   color: black;
   width: 100%;
-  text-align: center;
-  height: 45px;
+  height: auto;
   bottom: 0;
-  align-self: center;
-
+  align-items: center;
   position: fixed;
   bottom: 0;
   left: 0;

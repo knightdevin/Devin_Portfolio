@@ -9,7 +9,7 @@ const AboutParagraph = styled.h4`
 
 const About = () => {
   return (
-    <div id="about_container" className="aboutBox">
+    <div id="about_container" className="pageContent">
       <div>
         <Helmet>
           <title>Devin Knight | About </title>

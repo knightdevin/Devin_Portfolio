@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet'
 
 const Contact = () => {
   return (
-    <div id="contact_container" className="content">
+    <div id="contact_container" className="pageContent">
       <Helmet>
         <title>Devin Knight | Contact </title>
       </Helmet>

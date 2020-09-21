@@ -26,7 +26,7 @@ const SupplementalLinks = styled.a`
 
 const Projects = () => {
   return (
-    <div id="contact_container" className="content">
+    <div id="contact_container" className="pageContent">
       <Helmet>
         <title>Devin Knight | Projects </title>
       </Helmet>

@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet'
 
 const ExpAndEdu = () => {
   return (
-    <div id="contact_container" className="content">
+    <div id="contact_container" className="pageContent">
       <Helmet>
         <title>Devin Knight | Education & Experience </title>
       </Helmet>

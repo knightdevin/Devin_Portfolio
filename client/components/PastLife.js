@@ -30,7 +30,7 @@ const SingleAward = styled.li`
 
 const PastLife = () => {
   return (
-    <div id="pastCareer_container">
+    <div id="pastCareer_container" className="pageContent">
       <Helmet>
         <title>Devin Knight | Past Life </title>
       </Helmet>

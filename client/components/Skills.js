@@ -36,7 +36,7 @@ class Skills extends React.Component {
   // eslint-disable-next-line complexity
   render() {
     return (
-      <div>
+      <div className="pageContent">
         <Helmet>
           <title>Devin Knight | Skills </title>
         </Helmet>

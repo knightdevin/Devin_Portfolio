@@ -9,7 +9,7 @@ const StyledArticles = styled.a`
 
 const TechPublications = () => {
   return (
-    <div id="contact_container" className="content">
+    <div id="contact_container" className="pageContent">
       <Helmet>
         <title>Devin Knight | Publications </title>
       </Helmet>

@@ -242,6 +242,16 @@ form div {
   align-self: center;
 }
 
+.youTubeLogo {
+  height: 50px;
+}
+
+.miroBoardLogo {
+  height: 31px;
+  width: 48px;
+  border-radius: 10px;
+}
+
 /* ================= PUBLICATIONS STYLES ================= */
 
 .articleBox {

@@ -1,6 +1,28 @@
 import React, {Component} from 'react'
 import {Helmet} from 'react-helmet'
 import {Link} from 'react-router-dom'
+import styled, {css} from 'styled-components'
+
+// ====================== STYLED COMPONENTS ======================
+
+const ProjectExtraLinks = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+const SupplementalLinks = styled.a`
+  display: flex;
+  align-items: center;
+  // cursor: pointer;
+  transition: 0.5s all ease-out;
+
+  &:hover {
+    transform: translateY(-3px) scale(1.25);
+  }
+`
+// NOTE: more on hover function & styled components at: https://www.robinwieruch.de/react-styled-components
+
+// ===============================================================
 
 const Projects = () => {
   return (
@@ -24,13 +46,36 @@ const Projects = () => {
             {/* </a> */}
             <p>
               Bramble is a social media site where users meet new friends,
-              explore new communities and discover interesting activities in
-              their neighborhood. The site features an interactive map that
-              allows users to upload & review locations. They can also subscribe
-              to like-minded communities and interact with posts and comments.
-              The site also leverages Google Cloud Vision for unique image
+              explore new communities and discover activities in their
+              neighborhood. The site features an interactive map that allows
+              users to upload & review locations. They can also subscribe to
+              like-minded communities and interact with posts and comments. The
+              site also leverages Google Cloud Vision for unique image
               recognition with tags associated with uploaded photos.
             </p>
+            <ProjectExtraLinks>
+              <SupplementalLinks
+                className="react-router__link"
+                href="https://www.youtube.com/watch?v=yN0ZfelW5tI&list=PLx0iOsdUOUmnf7I22qeTz8ms5tPM14dgg&index=16&t=0s"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {/* <h4>Presentation</h4> */}
+                <img
+                  src="/logos/hd-youtube-logo-png-transparent-background-20.png"
+                  className="youTubeLogo"
+                />
+              </SupplementalLinks>
+              <SupplementalLinks
+                className="react-router__link"
+                href="https://miro.com/app/board/o9J_ksmx0V0=/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {/* <h4>Wireframes</h4> */}
+                <img src="/logos/download.png" className="miroBoardLogo" />
+              </SupplementalLinks>
+            </ProjectExtraLinks>
             <h4>Bramble Data Ecosystem:</h4>
             <p>
               Sequelize, Node.js, Express, React, Redux, Heroku, Mapbox, Google

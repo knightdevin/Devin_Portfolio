@@ -7,7 +7,7 @@ const StyledArticles = styled.a`
   margin: 10px;
 `
 
-const TechPublications = () => {
+const Publications = () => {
   return (
     <div id="contact_container" className="pageContent">
       <Helmet>
@@ -23,21 +23,6 @@ const TechPublications = () => {
         target="_blank"
       >
         <div className="articleBox">
-          {/* <h2>A Better Way To Fill Your Database Tables With Random Data</h2>
-          <h4>
-            Take the headache out of managing a seed file with a simple
-            JavaScript library
-          </h4>
-          <img
-            src="/photos/ArticledatabasePhoto.png"
-            className="hobbyShopperPhoto"
-          />
-          <p>
-            So you’re developing an idea for a new app or website. Maybe you and
-            your colleagues just wrapped up a big planning session. Everyone
-            knows what the app is, who will be using it and what it will be used
-            for. High-fives all around, right?
-          </p> */}
           <img
             src="/photos/DatabaseMediumArticleImage.png"
             className="techArticle"
@@ -206,4 +191,4 @@ const TechPublications = () => {
   )
 }
 
-export default TechPublications
+export default Publications

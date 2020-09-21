@@ -7,7 +7,7 @@ import {
   About,
   Projects,
   Skills,
-  TechPublications,
+  Publications,
   ExpAndEdu,
   PastLife,
   Contact,
@@ -25,7 +25,7 @@ export default class Routes extends Component {
         <Route path="/projects" component={Projects} />
         <Route path="/skills" component={Skills} />
         <Route path="/education-experience" component={ExpAndEdu} />
-        <Route path="/publications" component={TechPublications} />
+        <Route path="/publications" component={Publications} />
         <Route path="/past-life" component={PastLife} />
         <Route path="/contact" component={Contact} />
         <Route exact path="/" component={About} />

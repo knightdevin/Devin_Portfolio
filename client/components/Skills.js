@@ -1,5 +1,17 @@
 import React from 'react'
 import {Helmet} from 'react-helmet'
+import styled from 'styled-components'
+
+// ====================== STYLED COMPONENTS ======================
+
+const SkillsHeading = styled.h2`
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-block-end: auto;
+  text-decoration: underline;
+`
+
+// ===============================================================
 
 class Skills extends React.Component {
   constructor() {
@@ -30,7 +42,7 @@ class Skills extends React.Component {
         </Helmet>
         <div className="skillsBox">
           <div className="subSkills_box">
-            <h2>Proficient</h2>
+            <SkillsHeading>Proficient</SkillsHeading>
             <div className="subSkills_iconsBox">
               <div className="single_skill">
                 <img
@@ -174,28 +186,83 @@ class Skills extends React.Component {
             <br />
           </div>
           <div className="subSkills_box">
-            <h2>Knowledgable</h2>
-            <div>
-              <img
-                src="/logos/new_cloudinary_logo_square.png"
-                className="skill_img"
-              />
-              <img
-                src="/logos/redux-1_BpaqVMW2RjQAg9cFHcX1pw.png"
-                className="redux_skill"
-              />
-              <img
-                src="/logos/google-cloud-vision-api.webp"
-                className="skill_img"
-              />
-              <img
-                src="/logos/mapbox-logo-logodix-mapbox-png-510_364.png"
-                className="skill_img"
-              />
+            <SkillsHeading>Knowledgable</SkillsHeading>
+            <div className="subSkills_iconsBox">
+              <div className="single_skill">
+                <img
+                  id="cloudinary"
+                  src="/logos/new_cloudinary_logo_square.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.cloudinary ? (
+                  <p className="skill_name">Cloudinary</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="redux"
+                  src="/logos/reduxLogo.png"
+                  className="redux_skill"
+                  // className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.redux ? (
+                  <p className="skill_name">Redux</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="googleCloud"
+                  src="/logos/google-cloud-vision-api.webp"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.googleCloud ? (
+                  <p className="skill_name">Google Cloud Vision API</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="styledComponents"
+                  src="/logos/1_7jRD5QhgARucFKvRHFxpOg-1.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.styledComponents ? (
+                  <p className="skill_name">Styled Components</p>
+                ) : (
+                  <br />
+                )}
+              </div>
+              <div className="single_skill">
+                <img
+                  id="mapBox"
+                  src="/logos/mapbox-logo-logodix-mapbox-png-510_364.png"
+                  className="skill_img"
+                  onMouseOver={this.onHover}
+                  onMouseOut={this.offHover}
+                />
+                {this.state.mapBox ? (
+                  <p className="skill_name">Mapbox API</p>
+                ) : (
+                  <br />
+                )}
+              </div>
             </div>
           </div>
           <div className="subSkills_box">
-            <h2>Transferrable Skills</h2>
+            <SkillsHeading>Transferrable Skills</SkillsHeading>
             <div className="subSkills_iconsBox">
               <div className="single_skill">
                 <img

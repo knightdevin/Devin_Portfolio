@@ -193,6 +193,16 @@ form div {
   transform: translateY(-3px) scale(1.025);
 }
 
+.youTubeLogo {
+  height: 50px;
+}
+
+.miroBoardLogo {
+  height: 31px;
+  width: 48px;
+  border-radius: 10px;
+}
+
 /* ================= SKILLS STYLES ================= */
 
 .skillsBox {
@@ -221,35 +231,22 @@ form div {
 }
 
 .redux_skill {
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
-  /* height: 100px; */
-
   object-fit: cover;
   object-position: 100% 0;
-
   /* width: 300px; */
-  height: 120px;
+  margin-top: 15px;
+  height: 110px;
 }
 
 .single_skill {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  height: 100px;
 }
 
 .skill_name {
   align-self: center;
-}
-
-.youTubeLogo {
-  height: 50px;
-}
-
-.miroBoardLogo {
-  height: 31px;
-  width: 48px;
-  border-radius: 10px;
 }
 
 /* ================= PUBLICATIONS STYLES ================= */

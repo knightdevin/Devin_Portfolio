@@ -7,7 +7,7 @@ const FooterStyles = styled.p`
   text-align: center;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: large;
-  margin-top: 0px;
+  margin: 0px;
 `
 
 const FooterLogo = styled.img`

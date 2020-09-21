@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 a {
@@ -81,17 +81,9 @@ form div {
 /* ================= PAST LIFE STYLES =================*/
 
 #pastCareer_container {
-  width: 80%;
   display: flex;
   flex-direction: column;
-}
-
-.pastLife-skillsBox {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  width: 75%;
-  border: red solid;
+  align-items: center;
 }
 
 .typewriter {
@@ -133,7 +125,7 @@ form div {
 .reelsBox {
   display: flex;
   justify-content: space-evenly;
-  /* width: 80%; */
+  width: 80%;
 }
 
 .reelIcon {

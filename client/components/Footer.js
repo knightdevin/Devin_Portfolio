@@ -10,7 +10,7 @@ const FooterStyles = styled.p`
 const Footer = () => {
   return (
     <div className="footer">
-      <FooterStyles>Created by Devin Knight in fall 2020</FooterStyles>
+      <FooterStyles>Created by Devin Knight in 2020</FooterStyles>
     </div>
   )
 }

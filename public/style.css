@@ -428,7 +428,7 @@ form div {
 /* ================= TRANSITION ANIMATION =================*/
 .pageContent {
   animation: fadein 2s;
-  /* transform: translateX(0); */
+  transform: translateX(0);
   /* transform: translateY(0); */
 }
 

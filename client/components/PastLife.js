@@ -65,7 +65,7 @@ class PastLife extends React.Component {
           As a public relations professional, I worked among teams to develop
           communication plans and pitched stories to journalists to earn
           coverage that helped our clients meet their business objectives. As a
-          producer, I had to write and develop compelling story angles that were
+          producer, I wrote and developed compelling story angles that were
           interesting to key audiences. Many of the skills from my media
           background are transferrable to the tech-industry.
         </PastLifeParagraph>
@@ -80,21 +80,6 @@ class PastLife extends React.Component {
         assemble visual stories. Journalists and Public Relations professionals
         work hand in hand through the good and bad stories about companies and
         elected officials.
-      </h4> */}
-        {/* <h4>
-        I have had unique opportunities to work within many positions in the
-        media spectrum. As a broadcast reporter, I leveraged different media and
-        became a quick problem solver to meet hard broadcast deadlines so my
-        stories were ready to be delivered live for every evening broacast. As a
-        public relations professional, I worked among teams to develop
-        communication plans and pitched stories to journalists to earn coverage
-        that helped our clients meet their business objectives. As a producer, I
-        had to write and develop compelling story angles that were interesting
-        to key audiences.
-      </h4>
-      <h4>
-        Many of the skills from my media background are transferrable to the
-        tech-industry.
       </h4> */}
         <SkillsHeading>Transferable Skills</SkillsHeading>
         <PastLifeSkillsBox>

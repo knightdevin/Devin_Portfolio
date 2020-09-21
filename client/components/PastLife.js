@@ -69,6 +69,49 @@ class PastLife extends React.Component {
           interesting to key audiences. Many of the skills from my media
           background are transferrable to the tech-industry.
         </PastLifeParagraph>
+
+        <SkillsHeading>Awards</SkillsHeading>
+        <br />
+        <AwardsBox>
+          <SingleAward>
+            2013 Golden Mike Award - Best Radio Govt. & Political Reporting
+            <ul>
+              Awarded by the Radio & Television News Association of Southern
+              California for a feature story that aired on KCSN 88.5FM about a
+              November Ballot Initiative.
+            </ul>
+            <ul>
+              <a
+                className="articleLink"
+                href="https://www.csun.edu/mike-curb-arts-media-communication/journalism/news/kcsn-reporters-alumni-win-golden-mike-awards"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Press coverage of award
+              </a>
+            </ul>
+          </SingleAward>
+
+          <SingleAward>
+            2012 Golden Mike Award - Best Radio Newscast Writing
+            <ul>
+              Awarded by the Radio & Television News Association of Southern
+              California for the "Evening Update" newscast writing that aired
+              September 12, 2012 on KCSN 88.5FM.
+            </ul>
+            <ul>
+              <a
+                className="articleLink"
+                href="https://csunshinetoday.csun.edu/university-news/kcsn-news-wins-two-golden-mike-awards/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Press coverage of award
+              </a>
+            </ul>
+          </SingleAward>
+        </AwardsBox>
+
         {/* <h4>
         Technology is paramount to the media industry. In the Public Relations
         world, public officials and company leaders look to publicists and
@@ -197,7 +240,7 @@ class PastLife extends React.Component {
             <img src="/photos/ReporterReelPhoto2.png" className="reelIcon" />
           </a>
         </div>
-        <SkillsHeading>Awards</SkillsHeading>
+        {/* <SkillsHeading>Awards</SkillsHeading>
         <br />
         <AwardsBox>
           <SingleAward>
@@ -237,9 +280,9 @@ class PastLife extends React.Component {
               </a>
             </ul>
           </SingleAward>
-        </AwardsBox>
+        </AwardsBox> */}
         <h3>
-          <Link to="/publications">
+          <Link to="/publications" className="articleLink">
             Click here for Sample of Published News Stories
           </Link>
         </h3>

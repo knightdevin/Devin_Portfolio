@@ -17,12 +17,16 @@ nav a {
 
 .navLink {
   transition: all 500ms;
+  position: relative;
+  color: #000;
+  text-decoration: none;
 }
 
 .navLink:hover {
   text-shadow: rgba(237, 238, 238, 0.226) 0px 0.35em 1.175em,
     rgba(237, 238, 238, 0.212) 0px 0.175em 0.5em;
   transform: translateY(-1.4px) scale(1.2);
+  color: #000;
 }
 
 #navbar {
@@ -194,12 +198,12 @@ form div {
 }
 
 .youTubeLogo {
-  height: 50px;
+  height: 60px;
 }
 
 .miroBoardLogo {
-  height: 31px;
-  width: 48px;
+  height: 37px;
+  width: 53px;
   border-radius: 10px;
 }
 

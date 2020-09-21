@@ -8,6 +8,8 @@ import styled from 'styled-components'
 const ProjectExtraLinks = styled.div`
   display: flex;
   align-items: center;
+  width: 40%;
+  justify-content: space-evenly;
 `
 
 const SupplementalLinks = styled.a`
@@ -17,9 +19,19 @@ const SupplementalLinks = styled.a`
   transition: 0.5s all ease-out;
 
   &:hover {
-    transform: translateY(-3px) scale(1.25);
+    transform: translateY(-3px) scale(1.35);
   }
 `
+const ProjectEcoSystem = styled.h4`
+  margin-bottom: 0;
+  text-decoration: underline;
+`
+
+const TechStack = styled.p`
+  font-style: italic;
+  text-align: center;
+`
+
 // NOTE: more on hover function & styled components at: https://www.robinwieruch.de/react-styled-components
 
 // ===============================================================
@@ -45,13 +57,12 @@ const Projects = () => {
             <img src="/photos/bramblePhoto.png" className="bramblePhoto" />
             {/* </a> */}
             <p>
-              Bramble is a social media site where users meet new friends,
-              explore new communities and discover activities in their
-              neighborhood. The site features an interactive map that allows
-              users to upload & review locations. They can also subscribe to
-              like-minded communities and interact with posts and comments. The
-              site also leverages Google Cloud Vision for unique image
-              recognition with tags associated with uploaded photos.
+              Bramble is a social media site where users meet friends, explore
+              communities & discover neighborhood activities. The site features
+              an interactive map for users to upload & review locations. Users
+              can also subscribe to communities & interact with posts &
+              comments. The site also leverages Google Cloud Vision for unique
+              image recognition.
             </p>
             <ProjectExtraLinks>
               <SupplementalLinks
@@ -76,11 +87,11 @@ const Projects = () => {
                 <img src="/logos/download.png" className="miroBoardLogo" />
               </SupplementalLinks>
             </ProjectExtraLinks>
-            <h4>Bramble Data Ecosystem:</h4>
-            <p>
+            <ProjectEcoSystem>Bramble Data Ecosystem:</ProjectEcoSystem>
+            <TechStack>
               Sequelize, Node.js, Express, React, Redux, Heroku, Mapbox, Google
               Cloud Vision, PostgreSQL
-            </p>
+            </TechStack>
           </div>
         </a>
         <a
@@ -103,8 +114,10 @@ const Projects = () => {
               logged-in user. Admins have additional capabilities through a
               unique dashboard.
             </p>
-            <h4>Hobby Shopper Data Ecosystem:</h4>
-            <p>Sequelize, Express, React, Redux, Heroku, Node.js</p>
+            <ProjectEcoSystem>Hobby Shopper Data Ecosystem:</ProjectEcoSystem>
+            <TechStack>
+              Sequelize, Express, React, Redux, Heroku, Node.js
+            </TechStack>
           </div>
         </a>
 
@@ -125,10 +138,12 @@ const Projects = () => {
             scenes. The game is built using Object Oriented Programming through
             the Phaser 3 JavaScript framework.
           </p>
-          <h4>Lucifer Video Game Data Ecosystem:</h4>
-          <p>
+          <ProjectEcoSystem>
+            Lucifer Video Game Data Ecosystem:
+          </ProjectEcoSystem>
+          <TechStack>
             JavaScript, HTML5, Phaser 3 Framework (Object Oriented Programming)
-          </p>
+          </TechStack>
         </div>
       </div>
     </div>

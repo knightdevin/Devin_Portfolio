@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 // ====================== STYLED COMPONENTS ======================
 
-const SkillsHeading = styled.h2`
+export const SkillsHeading = styled.h2`
   font-weight: bolder;
   font-size: xx-large;
   margin-block-end: auto;
@@ -186,7 +186,7 @@ class Skills extends React.Component {
             <br />
           </div>
           <div className="subSkills_box">
-            <SkillsHeading>Knowledgable</SkillsHeading>
+            <SkillsHeading>Knowledgeable</SkillsHeading>
             <div className="subSkills_iconsBox">
               <div className="single_skill">
                 <img

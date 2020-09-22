@@ -8,7 +8,6 @@ const EducationContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  // width: 70%;
 `
 
 const OneSchool = styled.div`
@@ -17,10 +16,20 @@ const OneSchool = styled.div`
   align-items: center;
   border: 1px solid gray;
   width: 70%;
+  margin: 0.5%;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+    rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
 
   &:hover {
-    background-color: #a9d1ef;
+    background-color: #eef6fc;
   }
+`
+
+const Title = styled.h4`
+  text-align: center;
+  font-style: italic;
+  margin-bottom: auto;
+  font-size: 20px;
 `
 
 // ===============================================================
@@ -40,7 +49,7 @@ const ExpAndEdu = () => {
             className="edu_img"
             src="/logos/fullstack-academy-logo-color-on-white.png"
           />
-          <h4 className="title">Software Engineering Student (2020)</h4>
+          <Title>Software Engineering Student (2020)</Title>
           <ul className="responsibilities">
             <li className="bullet">
               17-week immersive software engineering program based in New York
@@ -56,9 +65,10 @@ const ExpAndEdu = () => {
         <OneSchool>
           <h2 className="nameOfPlace">New York University</h2>
           <img className="edu_img" src="/logos/nyu.png" />
-          <h4 className="title">
-            Master of Science - Relations and Corporate Communications (2017)
-          </h4>
+          <Title>
+            Master of Science - Public Relations & Corporate Communications
+            (2017)
+          </Title>
           <ul className="responsibilities">
             <li className="bullet">
               The M.S. in Public Relations and Corporate Communications program
@@ -84,7 +94,7 @@ const ExpAndEdu = () => {
           </h2>
 
           <img className="edu_img" src="/logos/Seal-CSUN-Horizontal-186.png" />
-          <h4 className="title">Bachelor of Arts - JournalismGrade (2012)</h4>
+          <Title>Bachelor of Arts - Journalism (2012)</Title>
           <ul className="responsibilities">
             <li className="bullet">
               The B.A. in CSUN's Department of Journalism is a nationally

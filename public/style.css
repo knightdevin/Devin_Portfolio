@@ -376,14 +376,6 @@ form div {
 
 /* ================= EDUCATION & EXPERIENCES STYLES =================*/
 
-.expAndEduBox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid gray;
-  width: 70%;
-}
-
 .edu_img {
   height: 45px;
 }

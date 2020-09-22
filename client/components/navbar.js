@@ -14,6 +14,7 @@ const NameText = styled.h1`
   text-align: center;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: xxx-large;
+  margin-top: -8px;
 `
 
 class Navbar extends React.Component {

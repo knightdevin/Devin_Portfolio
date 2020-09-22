@@ -2,9 +2,10 @@ import React, {Component} from 'react'
 import {Helmet} from 'react-helmet'
 import styled from 'styled-components'
 
-const AboutParagraph = styled.h4`
+const AboutParagraph = styled.p`
   width: 60%;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 21px;
 `
 
 const About = () => {

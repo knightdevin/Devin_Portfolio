@@ -53,9 +53,7 @@ const Projects = () => {
           <div className="projectBox">
             <h2>Bramble</h2>
             <h4>Fullstack Developer, 2020</h4>
-            {/* <a href="http://brambles.herokuapp.com/"> */}
             <img src="/photos/bramblePhoto.png" className="bramblePhoto" />
-            {/* </a> */}
             <p>
               Bramble is a social media site where users meet friends, explore
               communities & discover neighborhood activities. The site features

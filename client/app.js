@@ -6,7 +6,7 @@ import Routes from './routes'
 const App = () => {
   return (
     <div>
-      <div>
+      <div style={{marginRight: '-9px', marginLeft: '-9px'}}>
         <Navbar />
         <Routes />
       </div>

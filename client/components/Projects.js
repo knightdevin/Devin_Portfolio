@@ -51,10 +51,10 @@ const Projects = () => {
           target="_blank"
         >
           <div className="projectBox">
-            <h2>Bramble</h2>
+            <h2 style={{fontSize: '25px'}}>Bramble</h2>
             <h4>Fullstack Developer, 2020</h4>
             <img src="/photos/bramblePhoto.png" className="bramblePhoto" />
-            <p>
+            <p style={{fontSize: '18px'}}>
               Bramble is a social media site where users meet friends, explore
               communities & discover neighborhood activities. The site features
               an interactive map for users to upload & review locations. Users
@@ -99,14 +99,14 @@ const Projects = () => {
           target="_blank"
         >
           <div className="projectBox">
-            <h2>Hobby Shopper</h2>
+            <h2 style={{fontSize: '25px'}}>Hobby Shopper</h2>
             <h4>Fullstack Developer, 2020</h4>
 
             <img
               src="/photos/hobbyShopperPhoto.png"
               className="hobbyShopperPhoto"
             />
-            <p>
+            <p style={{fontSize: '18px'}}>
               An e-commerce platform, in which users shop for courses to learn a
               new hobby. Courses are added to a cart as either a guest or
               logged-in user. Admins have additional capabilities through a
@@ -120,7 +120,7 @@ const Projects = () => {
         </a>
 
         <div className="projectBox">
-          <h2>Lucifer Game: IN PROGRESS</h2>
+          <h2 style={{fontSize: '25px'}}>Lucifer Game: In Progress</h2>
           <h4>Sole Developer, 2020</h4>
           <a>
             <img
@@ -128,7 +128,7 @@ const Projects = () => {
               className="luciferGamePhoto"
             />
           </a>
-          <p>
+          <p style={{fontSize: '18px'}}>
             Fans of one of Netflix's most popular shows can buckle up for this
             multi-level game centered around Lucifer Morningstar and Detective
             Chloe Decker. The retro style arcade levels challenge players to

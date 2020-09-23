@@ -226,7 +226,7 @@ class Skills extends React.Component {
                   onMouseOut={this.offHover}
                 />
                 {this.state.googleCloud ? (
-                  <p className="skill_name">Google Cloud Vision API</p>
+                  <p className="skill_name">Google Vision API</p>
                 ) : (
                   <br />
                 )}

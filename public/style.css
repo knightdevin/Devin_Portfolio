@@ -414,6 +414,7 @@ form div {
   align-items: center;
   position: fixed;
   left: 0;
+  padding-top: 10px;
 }
 
 /* ================= TRANSITION ANIMATION =================*/

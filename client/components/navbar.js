@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import {NavLink, Link} from 'react-router-dom'
+import PropTypes from 'prop-types'
+import React from 'react'
 import styled from 'styled-components'
 
 // import {logout} from '../store'
@@ -11,10 +11,11 @@ const SiteHeading = styled.div`
 `
 
 const NameText = styled.h1`
-  text-align: center;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: xxx-large;
   margin-top: -8px;
+  padding-top: 32px;
+  text-align: center;
 `
 
 class Navbar extends React.Component {

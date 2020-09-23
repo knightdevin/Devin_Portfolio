@@ -106,7 +106,7 @@ class ExpAndEdu extends React.Component {
             <ul className="responsibilities">
               <p className="bullet">
                 17-week immersive software engineering program based in New York
-                City & Licensed by New York State Education Department
+                City & Licensed by New York State Education Department.
               </p>
               <RelevantSkills>
                 <div style={{textDecoration: 'underline'}}>
@@ -218,18 +218,17 @@ class ExpAndEdu extends React.Component {
               <p className="bullet">
                 Part of a remote search quality team that evaluated​ Jet.com
                 internal searches, documented and fixed search optimization
-                issues ​using SQL
+                issues ​using SQL.
               </p>
               <RelevantSkills>
                 <div style={{textDecoration: 'underline'}}>
                   Relevant Skills:{' '}
                 </div>
                 Merchandising & Product Issue Analysis, Excel, Attention to
-                Detail, Critical Thinking, SQL
+                Detail, Critical Thinking, SQL.
               </RelevantSkills>
             </ul>
           </OneSchool>
-
           <OneSchool>
             <h2 className="nameOfPlace">
               Better Man Show - New York City Metro Area
@@ -249,6 +248,51 @@ class ExpAndEdu extends React.Component {
                 Team Management, Meeting Deadlines, Critical Thinking, Problem
                 Solving, Editing (Adobe Premiere Pro software), Production
                 Development, Leadership
+              </RelevantSkills>
+            </ul>
+          </OneSchool>
+          <OneSchool>
+            <h2 className="nameOfPlace">Weber Shandwick - New York City</h2>
+            <CompanyLogos src="/logos/1200px-WS_logo_wesolve_rgb_pos_blu.svg.png" />
+            <Title>Account Executive (2015 - 2016)</Title>
+            <ul className="responsibilities">
+              <p className="bullet">
+                Part of a strategic communications team within the Corporate
+                Issues group that counseled Fortune 500 clients in preparing for
+                & responding to global political & corporate crises. Prepared
+                client research dockets, developed multimedia deliverables &
+                earned media coverage to enhance client reputations.
+              </p>
+              <RelevantSkills>
+                <div style={{textDecoration: 'underline'}}>
+                  Relevant Skills:{' '}
+                </div>
+                Critical Thinking, Problem Solving, Communication, Research,
+                Writing, Teamwork, Meeting Deadlines, Cross-team relationship
+                Building
+              </RelevantSkills>
+            </ul>
+          </OneSchool>
+
+          <OneSchool>
+            <h2 className="nameOfPlace">Walb News Ten - Albany, GA</h2>
+            <CompanyLogos src="/logos/walb-news-10-albany.png" />
+            <Title>On Air Repoter / Multimedia Journalist (2013 - 2014)</Title>
+            <ul className="responsibilities">
+              <p className="bullet">
+                Delivered live coverage of breaking news events on the leading
+                local news station in Southwest Georgia. I covered politics,
+                crime, fires & human interest stories as a general assignment
+                repoter among a dedicated group of anchors, producers &
+                journalism professionals.
+              </p>
+              <RelevantSkills>
+                <div style={{textDecoration: 'underline'}}>
+                  Relevant Skills:{' '}
+                </div>
+                Meeting Deadlines, Problem Solving, Writing, Digital
+                Photography, Editing (Edius software), ENPS Software,
+                Resourcefulness, Quick Learner
               </RelevantSkills>
             </ul>
           </OneSchool>

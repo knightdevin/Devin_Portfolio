@@ -42,7 +42,7 @@ const Footer = () => {
           <FooterLogo src="/logos/github - 25231.png" />
         </a>
         <a href="mailto:knightdevin@hotmail.com">
-          <FooterLogo src="/logos/clipart316850.png" />
+          <FooterLogo src="/logos/clipart1150873.png" />
         </a>
       </FooterLogosContainer>
       <FooterStyles>Created by Devin Knight in 2020</FooterStyles>

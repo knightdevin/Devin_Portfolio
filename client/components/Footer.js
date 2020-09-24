@@ -25,7 +25,7 @@ const FooterLogosContainer = styled.div`
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div id="footer" className="pageContent">
       <FooterLogosContainer>
         <a
           href="https://www.linkedin.com/in/devinknight/"

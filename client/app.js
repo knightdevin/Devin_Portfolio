@@ -9,8 +9,8 @@ const App = () => {
       <div style={{marginRight: '-9px', marginLeft: '-9px'}}>
         <Navbar />
         <Routes />
+        {/* <Footer /> */}
       </div>
-      <br />
       <br />
       <br />
       <Footer />

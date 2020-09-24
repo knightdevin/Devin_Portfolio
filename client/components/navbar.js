@@ -17,6 +17,14 @@ const NameText = styled.h1`
   padding-top: 32px;
   text-align: center;
 `
+// const HomeLink = styled.a`
+//   transition: 0.5s all ease-out;
+
+//   &:hover {
+//     transform: translateY(-3px) scale(1.5);
+//     cursor: pointer;
+//   }
+// `
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -50,7 +58,11 @@ class Navbar extends React.Component {
       : 'nav_item'
     return (
       <SiteHeading>
-        <NameText>Devin Knight</NameText>
+        <NameText>
+          <NavLink to="/" className="navLink">
+            Devin Knight
+          </NavLink>
+        </NameText>
         <nav id="navbar">
           {/* {isLoggedIn ? ( */}
           {/* <div> */}

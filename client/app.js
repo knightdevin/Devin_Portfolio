@@ -12,7 +12,7 @@ const App = () => {
           marginLeft: '-9px',
           display: 'flex',
           flexDirection: 'column',
-          minHeight: '100vh',
+          minHeight: '95vh',
         }}
       >
         <Navbar />

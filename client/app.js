@@ -6,13 +6,18 @@ import Routes from './routes'
 const App = () => {
   return (
     <div>
-      <div style={{marginRight: '-9px', marginLeft: '-9px'}}>
+      <div
+        style={{
+          marginRight: '-9px',
+          marginLeft: '-9px',
+          display: 'flex',
+          flexDirection: 'column',
+          minHeight: '100vh',
+        }}
+      >
         <Navbar />
         <Routes />
-        {/* <Footer /> */}
       </div>
-      <br />
-      <br />
       <Footer />
     </div>
   )

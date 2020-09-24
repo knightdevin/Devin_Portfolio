@@ -4,6 +4,7 @@ import {Route, Switch} from 'react-router-dom'
 // import {withRouter} from 'react router'
 // import PropTypes from 'prop-types'
 import {
+  LandingPage,
   About,
   Projects,
   Skills,
@@ -28,7 +29,7 @@ export default class Routes extends Component {
         <Route path="/publications" component={Publications} />
         <Route path="/past-life" component={PastLife} />
         <Route path="/contact" component={Contact} />
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={LandingPage} />
       </Switch>
     )
   }

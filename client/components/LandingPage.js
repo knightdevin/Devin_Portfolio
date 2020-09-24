@@ -1,14 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Helmet} from 'react-helmet'
 
 // ====================== STYLED COMPONENTS ======================
-
-// const FooterStyles = styled.p`
-//   text-align: center;
-//   font-family: 'Trebuchet MS', Helvetica, sans-serif;
-//   font-size: large;
-//   margin: 0px;
-// `
 
 const TextOnPhoto = styled.h2`
   text-shadow: 3px 3px rgb(0, 0, 0, 0.2);
@@ -52,6 +46,9 @@ const BackgroundOverlayImg = styled.img`
 const LandingPage = () => {
   return (
     <LandingContainer>
+      <Helmet>
+        <title>Devin Knight | Software Engineer </title>
+      </Helmet>
       <TextOnPhoto>A Developer with a Different Background</TextOnPhoto>
       <BackgroundOverlayImg src="/photos/extra photos/learn-code-e1455713167295.jpg" />
       <SubPhotosContainer>
@@ -59,7 +56,6 @@ const LandingPage = () => {
         <DecorativeImages src="/photos/extra photos/DevandJimmyReporter.jpg" />
         <DecorativeImages src="/photos/extra photos/DevBMSet.jpg" />
         <DecorativeImages src="/photos/extra photos/DevEditSess.jpg" />
-        {/* <DecorativeImages src="/photos/extra photos/IMG_1318.JPG" /> */}
         <DecorativeImages src="/photos/extra photos/Dev on BM set.jpg" />
       </SubPhotosContainer>
     </LandingContainer>

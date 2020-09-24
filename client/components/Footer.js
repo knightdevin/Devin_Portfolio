@@ -11,7 +11,7 @@ const FooterStyles = styled.p`
 `
 
 const FooterLogo = styled.img`
-  height: 40px;
+  height: 32px;
 `
 
 const FooterLogosContainer = styled.div`

@@ -2,18 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 // ====================== STYLED COMPONENTS ======================
-
-const FooterStyles = styled.p`
-  text-align: center;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  font-size: large;
-  margin: 0px;
-`
-
-const FooterLogo = styled.img`
-  height: 32px;
-`
-
 const FooterLogosContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
@@ -21,6 +9,16 @@ const FooterLogosContainer = styled.div`
   align-items: center;
 `
 
+const FooterLogo = styled.img`
+  height: 32px;
+`
+
+const FooterStyles = styled.p`
+  text-align: center;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: large;
+  margin: 0px;
+`
 // ===============================================================
 
 const Footer = () => {

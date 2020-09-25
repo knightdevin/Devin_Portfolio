@@ -1,16 +1,65 @@
 import React, {Component} from 'react'
 import {Helmet} from 'react-helmet'
 import styled from 'styled-components'
+import {SkillsHeading} from './Skills'
 
 // ====================== STYLED COMPONENTS ======================
+const AthleticLogo = styled.img`
+  height: 85px;
+  width: 100px;
+  border-radius: 5px;
+`
 
-const EducationContainer = styled.div`
+const CertificateButton = styled.button`
+  background-color: #adadad;
+  border-radius: 5px;
+  transition: 0.5s all ease-out;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-variant-caps: small-caps;
+  height: 25px;
+  width: 115px;
+  font-size: 15px;
+
+  &:hover {
+    transform: translateY(-3px) scale(1.03);
+    cursor: pointer;
+    box-shadow: rgba(2, 8, 20, 0.4) 0px 0.35em 1.175em,
+      rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  }
+`
+
+const CompanyLogos = styled.img`
+  height: 65px;
+  border-radius: 5px;
+`
+
+const EdAndExpPageContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+
+const EdAndExpContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
 `
 
-const OneSchool = styled.div`
+const ExtraActivities = styled.ul`
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 18px;
+`
+
+const RelevantSkills = styled.ul`
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 18px;
+  font-style: italic;
+`
+
+const SingleWorkSchoolCred = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,51 +81,9 @@ const Title = styled.h4`
   margin-bottom: auto;
   font-size: 20px;
 `
-
-const CertificateButton = styled.button`
-  background-color: #adadad;
-  border-radius: 5px;
-  transition: 0.5s all ease-out;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  font-variant-caps: small-caps;
-  height: 25px;
-  width: 115px;
-  font-size: 15px;
-
-  &:hover {
-    transform: translateY(-3px) scale(1.03);
-    cursor: pointer;
-    box-shadow: rgba(2, 8, 20, 0.4) 0px 0.35em 1.175em,
-      rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-  }
-`
-
-const RelevantSkills = styled.ul`
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font-size: 18px;
-  font-style: italic;
-`
-
-const ExtraActivities = styled.ul`
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font-size: 18px;
-`
-
-const AthleticLogo = styled.img`
-  height: 85px;
-  width: 100px;
-  border-radius: 5px;
-`
-const CompanyLogos = styled.img`
-  height: 65px;
-  border-radius: 5px;
-`
-
 // ===============================================================
 
-class ExpAndEdu extends React.Component {
+class ExpAndEdu extends Component {
   handleClick() {
     document.getElementById('button').addEventListener('click', function () {
       document.querySelector('.bg-modal').style.display = 'flex'
@@ -89,14 +96,14 @@ class ExpAndEdu extends React.Component {
 
   render() {
     return (
-      <div id="contact_container" className="pageContent">
+      <EdAndExpPageContent className="pageContent">
         <Helmet>
           <title>Devin Knight | Education & Experience </title>
         </Helmet>
         <br />
-        <EducationContainer>
-          <h2> EDUCATION </h2>
-          <OneSchool>
+        <EdAndExpContainer>
+          <SkillsHeading> EDUCATION </SkillsHeading>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">Fullstack Academy - New York City</h2>
             <img
               className="edu_img"
@@ -121,8 +128,8 @@ class ExpAndEdu extends React.Component {
             <CertificateButton id="button" onClick={this.handleClick}>
               View Certificate
             </CertificateButton>
-          </OneSchool>
-          <OneSchool>
+          </SingleWorkSchoolCred>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">New York University</h2>
             <img className="edu_img" src="/logos/nyu.png" />
             <Title>
@@ -150,8 +157,8 @@ class ExpAndEdu extends React.Component {
                 prospective students.
               </ExtraActivities>
             </ul>
-          </OneSchool>
-          <OneSchool>
+          </SingleWorkSchoolCred>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">
               California State University Northridge
             </h2>
@@ -184,10 +191,10 @@ class ExpAndEdu extends React.Component {
                 writing to prepare for publication for their high school paper.
               </ExtraActivities>
             </ul>
-          </OneSchool>
+          </SingleWorkSchoolCred>
           <br />
-          <h2> EXPERIENCE </h2>
-          <OneSchool>
+          <SkillsHeading> EXPERIENCE </SkillsHeading>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">
               The Athletic - New York City Metro Area
             </h2>
@@ -209,8 +216,8 @@ class ExpAndEdu extends React.Component {
                 Business Consulting
               </RelevantSkills>
             </ul>
-          </OneSchool>
-          <OneSchool>
+          </SingleWorkSchoolCred>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">Jet.com - Hoboken, NJ</h2>
             <CompanyLogos src="/logos/jet.com-553867439_1280x720.jpg" />
             <Title>Analyst - Part-Time Contract (2016 - 2018)</Title>
@@ -228,8 +235,8 @@ class ExpAndEdu extends React.Component {
                 Detail, Critical Thinking, SQL.
               </RelevantSkills>
             </ul>
-          </OneSchool>
-          <OneSchool>
+          </SingleWorkSchoolCred>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">
               Better Man Show - New York City Metro Area
             </h2>
@@ -250,8 +257,8 @@ class ExpAndEdu extends React.Component {
                 Development, Leadership
               </RelevantSkills>
             </ul>
-          </OneSchool>
-          <OneSchool>
+          </SingleWorkSchoolCred>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">Weber Shandwick - New York City</h2>
             <CompanyLogos src="/logos/1200px-WS_logo_wesolve_rgb_pos_blu.svg.png" />
             <Title>Account Executive (2015 - 2016)</Title>
@@ -272,9 +279,8 @@ class ExpAndEdu extends React.Component {
                 Building
               </RelevantSkills>
             </ul>
-          </OneSchool>
-
-          <OneSchool>
+          </SingleWorkSchoolCred>
+          <SingleWorkSchoolCred>
             <h2 className="nameOfPlace">Walb News Ten - Albany, GA</h2>
             <CompanyLogos src="/logos/walb-news-10-albany.png" />
             <Title>On Air Repoter / Multimedia Journalist (2013 - 2014)</Title>
@@ -295,9 +301,9 @@ class ExpAndEdu extends React.Component {
                 Resourcefulness, Quick Learner
               </RelevantSkills>
             </ul>
-          </OneSchool>
-        </EducationContainer>
-      </div>
+          </SingleWorkSchoolCred>
+        </EdAndExpContainer>
+      </EdAndExpPageContent>
     )
   }
 }

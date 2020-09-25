@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import {Helmet} from 'react-helmet'
 
@@ -7,9 +7,16 @@ const StyledArticles = styled.a`
   margin: 10px;
 `
 
+const PublicationsBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+
 const Publications = () => {
   return (
-    <div id="contact_container" className="pageContent">
+    <PublicationsBox className="pageContent">
       <Helmet>
         <title>Devin Knight | Publications </title>
       </Helmet>
@@ -187,7 +194,7 @@ const Publications = () => {
           />
         </StyledArticles>
       </div>
-    </div>
+    </PublicationsBox>
   )
 }
 

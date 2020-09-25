@@ -80,6 +80,7 @@ form div {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 3%;
 }
 /* ================= ABOUT ME STYLES =================*/
 
@@ -87,6 +88,7 @@ form div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 3%;
 }
 
 .aboutBox {
@@ -260,6 +262,7 @@ form div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 3%;
 }
 
 .subSkills_box {
@@ -408,6 +411,7 @@ form div {
   align-items: center;
   width: 100vw;
   background-color: #90c4eb;
+  box-shadow: 0px 10px 12px 19px rgb(38, 38, 38);
   position: relative;
   padding: 5px;
   flex-shrink: 0;

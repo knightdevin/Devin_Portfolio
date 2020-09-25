@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Helmet} from 'react-helmet'
 
 const Contact = () => {
@@ -37,10 +37,6 @@ const Contact = () => {
         <a className="contact_link" href="mailto:knightdevin@hotmail.com">
           knightdevin@hotmail.com
         </a>
-        {/* |
-        <a className="contact_link" href="dlk378@nyu.edu">
-          dlk378@nyu.edu
-        </a> */}
       </div>
     </div>
   )

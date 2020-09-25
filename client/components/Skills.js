@@ -3,14 +3,12 @@ import {Helmet} from 'react-helmet'
 import styled from 'styled-components'
 
 // ====================== STYLED COMPONENTS ======================
-
 export const SkillsHeading = styled.h2`
   font-weight: bolder;
   font-size: xx-large;
   margin-block-end: auto;
   text-decoration: underline;
 `
-
 // ===============================================================
 
 class Skills extends React.Component {
@@ -207,7 +205,6 @@ class Skills extends React.Component {
                   id="redux"
                   src="/logos/reduxLogo.png"
                   className="redux_skill"
-                  // className="skill_img"
                   onMouseOver={this.onHover}
                   onMouseOut={this.offHover}
                 />

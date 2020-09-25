@@ -3,15 +3,14 @@ import styled from 'styled-components'
 import {Helmet} from 'react-helmet'
 
 // ====================== STYLED COMPONENTS ======================
-
 const TextOnPhoto = styled.h2`
-  text-shadow: 3px 3px rgb(0, 0, 0, 0.2);
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-variant-caps: small-caps;
   font-size: 35px;
-  position: absolute;
-  top: 70%;
   left: 50%;
+  position: absolute;
+  text-shadow: 3px 3px rgb(0, 0, 0, 0.2);
+  top: 70%;
   transform: translate(-50%, -50%);
 `
 
@@ -23,16 +22,17 @@ const LandingContainer = styled.div`
 
 const SubPhotosContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
-  width: 20%;
   align-items: center;
+  justify-content: space-evenly;
+  transform: translate(-0%, -100%);
+  width: 20%;
 `
 
 const DecorativeImages = styled.img`
-  height: 190px;
-  transform: translate(-0%, -100%);
-  padding: 10px;
   border-radius: 15px;
+  height: 190px;
+  padding: 10px;
+  // transform: translate(-0%, -100%);
 `
 
 const BackgroundOverlayImg = styled.img`
@@ -40,7 +40,6 @@ const BackgroundOverlayImg = styled.img`
   width: 100%;
   opacity: 0.05;
 `
-
 // ===============================================================
 
 const LandingPage = () => {

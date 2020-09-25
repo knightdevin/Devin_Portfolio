@@ -1,12 +1,18 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Helmet} from 'react-helmet'
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import {SkillsHeading} from './Skills'
 
 // ====================== STYLED COMPONENTS ======================
+const AwardsBox = styled.div`
+  display: flex;
+  width: 70%;
+`
 
 const PastLifeParagraph = styled.h4`
+  font-size: 18px;
+  margin-bottom: 0;
   width: 70%;
 `
 
@@ -17,16 +23,16 @@ const PastLifeSkillsBox = styled.div`
   width: 75%;
 `
 
-const AwardsBox = styled.div`
-  display: flex;
-  width: 70%;
-`
 const SingleAward = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 1%;
+  box-shadow: rgba(2, 8, 20, 0.4) 0px 0.35em 0.175em,
+    rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
 `
-
 // ===============================================================
 
 class PastLife extends React.Component {
@@ -70,60 +76,57 @@ class PastLife extends React.Component {
           background are transferrable to the tech-industry.
         </PastLifeParagraph>
 
-        <SkillsHeading>Awards</SkillsHeading>
+        <SkillsHeading style={{marginBottom: '-1%'}}>Awards</SkillsHeading>
         <br />
         <AwardsBox>
           <SingleAward>
-            2013 Golden Mike Award - Best Radio Govt. & Political Reporting
-            <ul>
+            <p
+              style={{
+                fontWeight: 'bold',
+                marginBottom: '0',
+              }}
+            >
+              2013 Golden Mike Award - Best Radio Govt. & Political Reporting
+            </p>
+            <p style={{fontStyle: 'italic'}}>
               Awarded by the Radio & Television News Association of Southern
               California for a feature story that aired on KCSN 88.5FM about a
               November Ballot Initiative.
-            </ul>
-            <ul>
-              <a
-                className="articleLink"
-                href="https://www.csun.edu/mike-curb-arts-media-communication/journalism/news/kcsn-reporters-alumni-win-golden-mike-awards"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Press coverage of award
-              </a>
-            </ul>
+            </p>
+            <a
+              className="articleLink"
+              href="https://www.csun.edu/mike-curb-arts-media-communication/journalism/news/kcsn-reporters-alumni-win-golden-mike-awards"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Press coverage of award
+            </a>
           </SingleAward>
 
           <SingleAward>
-            2012 Golden Mike Award - Best Radio Newscast Writing
-            <ul>
+            <p
+              style={{
+                fontWeight: 'bold',
+                marginBottom: '0',
+              }}
+            >
+              2012 Golden Mike Award - Best Radio Newscast Writing
+            </p>
+            <p style={{fontStyle: 'italic'}}>
               Awarded by the Radio & Television News Association of Southern
               California for the "Evening Update" newscast writing that aired
               September 12, 2012 on KCSN 88.5FM.
-            </ul>
-            <ul>
-              <a
-                className="articleLink"
-                href="https://csunshinetoday.csun.edu/university-news/kcsn-news-wins-two-golden-mike-awards/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Press coverage of award
-              </a>
-            </ul>
+            </p>
+            <a
+              className="articleLink"
+              href="https://csunshinetoday.csun.edu/university-news/kcsn-news-wins-two-golden-mike-awards/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Press coverage of award
+            </a>
           </SingleAward>
         </AwardsBox>
-
-        {/* <h4>
-        Technology is paramount to the media industry. In the Public Relations
-        world, public officials and company leaders look to publicists and
-        communications strategists to disseminate vital information through
-        press releases, press confrences, social media and other means. In the
-        world of Journalsim, reporters use mobile technology to contact sources
-        and vet information, newsrooms leverage software like ENPS and iNews to
-        assemble newscasts, and staff uses non-linear editing software to
-        assemble visual stories. Journalists and Public Relations professionals
-        work hand in hand through the good and bad stories about companies and
-        elected officials.
-      </h4> */}
         <SkillsHeading>Transferable Skills</SkillsHeading>
         <PastLifeSkillsBox>
           <div className="single_skill">
@@ -213,7 +216,7 @@ class PastLife extends React.Component {
           </div>
         </PastLifeSkillsBox>
         <br />
-        <SkillsHeading>Producer and Reporter Reels</SkillsHeading>
+        <SkillsHeading>Producer & Reporter Reels</SkillsHeading>
         <div className="reelsBox">
           <a
             className="react-router__link"
@@ -240,47 +243,6 @@ class PastLife extends React.Component {
             <img src="/photos/ReporterReelPhoto2.png" className="reelIcon" />
           </a>
         </div>
-        {/* <SkillsHeading>Awards</SkillsHeading>
-        <br />
-        <AwardsBox>
-          <SingleAward>
-            2013 Golden Mike Award - Best Radio Govt. & Political Reporting
-            <ul>
-              Awarded by the Radio & Television News Association of Southern
-              California for a feature story that aired on KCSN 88.5FM about a
-              November Ballot Initiative.
-            </ul>
-            <ul>
-              <a
-                className="react-router__link"
-                href="https://www.csun.edu/mike-curb-arts-media-communication/journalism/news/kcsn-reporters-alumni-win-golden-mike-awards"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Press coverage of award
-              </a>
-            </ul>
-          </SingleAward>
-
-          <SingleAward>
-            2012 Golden Mike Award - Best Radio Newscast Writing
-            <ul>
-              Awarded by the Radio & Television News Association of Southern
-              California for the "Evening Update" newscast writing that aired
-              September 12, 2012 on KCSN 88.5FM.
-            </ul>
-            <ul>
-              <a
-                className="react-router__link"
-                href="https://csunshinetoday.csun.edu/university-news/kcsn-news-wins-two-golden-mike-awards/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Press coverage of award
-              </a>
-            </ul>
-          </SingleAward>
-        </AwardsBox> */}
         <h3>
           <Link to="/publications" className="articleLink">
             Click here for Sample of Published News Stories

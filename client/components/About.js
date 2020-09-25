@@ -1,12 +1,14 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Helmet} from 'react-helmet'
 import styled from 'styled-components'
 
+// ====================== STYLED COMPONENTS ======================
 const AboutParagraph = styled.p`
   width: 50%;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: 21px;
 `
+// ===============================================================
 
 const About = () => {
   return (

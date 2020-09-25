@@ -6,10 +6,6 @@ import styled from 'styled-components'
 
 // import {logout} from '../store'
 
-const SiteHeading = styled.div`
-  background-color: #5298dd;
-`
-
 const NameText = styled.h1`
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: xxx-large;
@@ -17,6 +13,11 @@ const NameText = styled.h1`
   padding-top: 32px;
   text-align: center;
 `
+
+const SiteHeading = styled.div`
+  background-color: #5298dd;
+`
+
 // const HomeLink = styled.a`
 //   transition: 0.5s all ease-out;
 
@@ -114,7 +115,6 @@ class Navbar extends React.Component {
           </div>
           {/* // )} */}
         </nav>
-        <hr />
       </SiteHeading>
     )
   }

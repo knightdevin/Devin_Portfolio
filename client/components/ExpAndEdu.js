@@ -296,9 +296,9 @@ class ExpAndEdu extends Component {
                 <div style={{textDecoration: 'underline'}}>
                   Relevant Skills:{' '}
                 </div>
-                Meeting Deadlines, Problem Solving, Writing, Digital
-                Photography, Editing (Edius software), ENPS Software,
-                Resourcefulness, Quick Learner
+                Meeting Deadlines, Problem Solving, Writing, Learning Station
+                Software: Edius (Editing) & ENPS, Resourcefulness, Syncing
+                Remote Broadcast Equipment w/ Control Room (Live-U backpack)
               </RelevantSkills>
             </ul>
           </SingleWorkSchoolCred>

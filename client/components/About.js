@@ -35,17 +35,17 @@ const About = () => {
           world.
         </p>
         <p>
-          I've always been interested in how to tell and share stories. As media
-          continued to change, I got more involved with the technical side of
-          production to create and share content (ex: using non-linear editing
-          software, electronic news gathering software, etc.).
+          As media continued to change, I got more involved with the technical
+          side of production to create and share content (ex: using non-linear
+          editing software, electronic news gathering software, etc.). I became
+          curious about how programs work and started experimenting with Python
+          and later JS. I really enjoyed puzzling out how all the code fits
+          together.
         </p>
         <p>
-          I became curious about how programs work and started experimenting
-          with Python and later JS. I really enjoyed puzzling out how all the
-          code fits together. Eventually, I enrolled in bootcamp prep courses
-          and earned admittance to Fullstack Academy's software engineering
-          program. As I learned more, I really enjoyed back-end planning and
+          I enrolled in bootcamp prep courses and earned admittance to Fullstack
+          Academy's software engineering program to become a full-stack
+          developer. As I learned more, I really enjoyed back-end planning and
           using Node.js, Sequelize and PostgreSQL to build database structures
           and developed an appreciation for using JavaScript, CSS and React for
           front-end interaction. I now look forward to working with a team that

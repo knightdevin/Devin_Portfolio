@@ -20,43 +20,34 @@ const LandingContainer = styled.div`
   align-items: center;
 `
 
-const SubPhotosContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  transform: translate(-0%, -100%);
-  width: 20%;
-`
-
-const DecorativeImages = styled.img`
-  border-radius: 15px;
-  height: 190px;
-  padding: 10px;
-  // transform: translate(-0%, -100%);
-`
-
 const BackgroundOverlayImg = styled.img`
-  height: 890px;
+  height: 1030px;
   width: 100%;
   opacity: 0.05;
+  position: absolute;
 `
+const BackgroundImg = styled.img`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  // flex-grow;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 8px 8px white inset;
+`
+
 // ===============================================================
 
 const LandingPage = () => {
   return (
-    <LandingContainer>
+    <LandingContainer style={{animation: 'fadein 2s', marginTop: '0.5%'}}>
       <Helmet>
         <title>Devin Knight | Software Engineer </title>
       </Helmet>
-      <TextOnPhoto>A Developer with a Different Background</TextOnPhoto>
+      {/* <TextOnPhoto>A Developer with a Different Background</TextOnPhoto> */}
+      <BackgroundImg src="/photos/extra photos/photos/501_3872.JPG" />
       <BackgroundOverlayImg src="/photos/extra photos/learn-code-e1455713167295.jpg" />
-      <SubPhotosContainer>
-        <DecorativeImages src="/photos/extra photos/IMG_1310.JPG" />
-        <DecorativeImages src="/photos/extra photos/DevandJimmyReporter.jpg" />
-        <DecorativeImages src="/photos/extra photos/DevBMSet.jpg" />
-        <DecorativeImages src="/photos/extra photos/DevEditSess.jpg" />
-        <DecorativeImages src="/photos/extra photos/Dev on BM set.jpg" />
-      </SubPhotosContainer>
     </LandingContainer>
   )
 }

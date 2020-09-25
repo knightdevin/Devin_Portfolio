@@ -33,6 +33,20 @@ const SingleAward = styled.li`
   box-shadow: rgba(2, 8, 20, 0.4) 0px 0.35em 0.175em,
     rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
 `
+
+const SubPhotosContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  // transform: translate((-296%, 188%));
+  width: 20%;
+`
+
+const DecorativeImages = styled.img`
+  border-radius: 15px;
+  height: 190px;
+  padding: 10px;
+`
 // ===============================================================
 
 class PastLife extends React.Component {
@@ -248,6 +262,13 @@ class PastLife extends React.Component {
             Click here for Sample of Published News Stories
           </Link>
         </h3>
+        <SubPhotosContainer>
+          <DecorativeImages src="/photos/extra photos/IMG_1310.JPG" />
+          <DecorativeImages src="/photos/extra photos/DevandJimmyReporter.jpg" />
+          <DecorativeImages src="/photos/extra photos/DevBMSet.jpg" />
+          <DecorativeImages src="/photos/extra photos/DevEditSess.jpg" />
+          <DecorativeImages src="/photos/extra photos/Dev on BM set.jpg" />
+        </SubPhotosContainer>
       </div>
     )
   }

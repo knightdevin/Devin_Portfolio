@@ -1,20 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import {Helmet} from 'react-helmet'
-import {NavLink, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 // ====================== STYLED COMPONENTS ======================
-const TextOnPhoto = styled.h2`
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  font-variant-caps: small-caps;
-  font-size: 35px;
-  left: 50%;
-  position: absolute;
-  text-shadow: 3px 3px rgb(0, 0, 0, 0.2);
-  top: 70%;
-  transform: translate(-50%, -50%);
-`
-
 const LandingContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -67,7 +56,6 @@ const ButtonImg = styled.img`
   42px: ;
   width: 145%;
 `
-
 // ===============================================================
 
 const LandingPage = () => {
@@ -76,11 +64,9 @@ const LandingPage = () => {
       <Helmet>
         <title>Devin Knight | Software Engineer </title>
       </Helmet>
-      {/* <TextOnPhoto>A Developer with a Different Background</TextOnPhoto> */}
       <BackgroundImg src="/photos/extra photos/photos/501_3872.JPG" />
       <BackgroundOverlayImg src="/photos/extra photos/learn-code-e1455713167295.jpg" />
       <StyledButton to="/projects">
-        {/* <ButtonImg src="/photos/extra photos/code_img.jpg" /> */}
         <ButtonImg src="/photos/extra photos/photos/Helper_Func_Code_Image.png" />
       </StyledButton>
     </LandingContainer>

@@ -6,6 +6,7 @@
     "node": "~12.11.1"
   },
   "main": "index.js",
+  "homepage": ".",
   "scripts": {
     "build-client": "webpack",
     "build-client-watch": "webpack -w",

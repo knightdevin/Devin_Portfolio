@@ -36,7 +36,7 @@
       "git add"
     ]
   },
-  "author": "Fullstack Academy of Code",
+  "author": "Devin Knight",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.0",

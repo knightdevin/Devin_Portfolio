@@ -82,10 +82,16 @@ const createApp = () => {
   })
 
   // sends index.html
-  app.use('*', (req, res) => {
-    // res.sendFile(path.join(__dirname, '..', 'public/index.html'))
-    res.sendFile(path.join(__dirname, '..', '/index.html')) // this change is for github pages to redirect to other index.html
-  })
+  // app.use('*', (req, res) => {
+  //   // res.sendFile(path.join(__dirname, '..', 'public/index.html'))
+  //   res.sendFile(path.join(__dirname, '..', '/index.html')) // this change is for github pages to redirect to other index.html
+  // })
+
+    app.use(express.static(path.join(__dirname, 'build')));
+  -app.get('/', function (req, res) {
+  +app.get('/*', function (req, res) {
+     res.sendFile(path.join(__dirname, 'build', 'index.html'));
+   });
 
   // error handling endware
   app.use((err, req, res, next) => {

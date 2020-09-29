@@ -1,7 +1,8 @@
 {
+  "homepage": "https://knightdevin.github.io/Devin_Portfolio/",
   "name": "Devin_Portfolio",
   "version": "2.0.0",
-  "description": "A professional portfolio site created by Devin Knight for Devin Knight",
+  "description": "A professional portfolio created by Devin Knight for Devin Knight (https://knightdevin.github.io/Devin_Portfolio/)",
   "engines": {
     "node": "~12.11.1"
   },
@@ -9,7 +10,6 @@
   "scripts": {
     "build-client": "webpack",
     "build-client-watch": "webpack -w",
-    "deploy": "script/deploy",
     "heroku-token": "script/encrypt-heroku-auth-token.js",
     "lint": "eslint ./ --ignore-path .gitignore",
     "lint-fix": "npm run lint -- --fix",
@@ -17,10 +17,14 @@
     "prettify": "prettier --write \"**/*.{js,jsx,json,css,scss,md}\"",
     "postinstall": "touch secrets.js",
     "seed": "node script/seed.js",
-    "start": "node server",
     "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client",
-    "test": "NODE_ENV='test' mocha \"./server/**/*.spec.js\" \"./client/**/*.spec.js\" \"./script/**/*.spec.js\" --require @babel/polyfill --require @babel/register"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "husky": {
     "hooks": {}

@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "A professional portfolio created by Devin Knight for Devin Knight (https://knightdevin.github.io/Devin_Portfolio/)",
   "engines": {
-    "node": "~12.14.1"
+    "node": "~12.11.1"
   },
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "seed": "node script/seed.js",
     "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client",
-    "start": "react-scripts start",
+    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

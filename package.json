@@ -17,7 +17,7 @@
     "seed": "node script/seed.js",
     "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client",
-    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
+    "start": "node server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

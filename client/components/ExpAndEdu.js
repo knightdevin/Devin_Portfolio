@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {Helmet} from 'react-helmet'
 import styled from 'styled-components'
 import {SkillsHeading} from './Skills'
-import {bm} from '../../secrets'
 
 // ====================== STYLED COMPONENTS ======================
 const AthleticLogo = styled.img`
@@ -248,7 +247,7 @@ class ExpAndEdu extends Component {
             <h2 className="nameOfPlace">
               Better Man Show - New York City Metro Area
             </h2>
-            <CompanyLogos src={bm} />
+            <CompanyLogos src="/logos/betterManlogo.png" />
             <Title>Producer / Post-Production Supervisor (2017 - 2018)</Title>
             <ul className="responsibilities">
               <p className="bullet">

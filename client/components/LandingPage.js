@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import {Helmet} from 'react-helmet'
 import {Link} from 'react-router-dom'
-import {landingimg, landingOverlay, codeSnippetImg} from '../../secrets'
 
 // ====================== STYLED COMPONENTS ======================
 const LandingContainer = styled.div`
@@ -66,10 +65,10 @@ const LandingPage = () => {
       <Helmet>
         <title>Devin Knight | Software Engineer </title>
       </Helmet>
-      <BackgroundImg src={landingimg} />
-      <BackgroundOverlayImg src={landingOverlay} />
+      <BackgroundImg src="/photos/extra photos/photos/501_3872.JPG" />
+      <BackgroundOverlayImg src="/photos/extra photos/learn-code-e1455713167295.jpg" />
       <StyledButton to="/projects">
-        <ButtonImg src={codeSnippetImg} />
+        <ButtonImg src="/photos/extra photos/photos/Helper_Func_Code_Image.png" />
       </StyledButton>
     </LandingContainer>
   )

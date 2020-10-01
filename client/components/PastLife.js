@@ -3,7 +3,6 @@ import {Helmet} from 'react-helmet'
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import {SkillsHeading} from './Skills'
-import {past1, past2, past3, past4, past5} from '../../secrets'
 
 // ====================== STYLED COMPONENTS ======================
 const AwardsBox = styled.div`
@@ -264,11 +263,11 @@ class PastLife extends React.Component {
           </Link>
         </h3>
         <SubPhotosContainer>
-          <DecorativeImages src={past1} />
-          <DecorativeImages src={past2} />
-          <DecorativeImages src={past3} />
-          <DecorativeImages src={past4} />
-          <DecorativeImages src={past5} />
+          <DecorativeImages src="/photos/extra photos/IMG_1310.JPG" />
+          <DecorativeImages src="/photos/extra photos/DevandJimmyReporter.jpg" />
+          <DecorativeImages src="/photos/extra photos/DevBMSet.jpg" />
+          <DecorativeImages src="/photos/extra photos/DevEditSess.jpg" />
+          <DecorativeImages src="/photos/extra photos/Dev on BM set.jpg" />
         </SubPhotosContainer>
       </div>
     )

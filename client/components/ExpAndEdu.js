@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Helmet} from 'react-helmet'
 import styled from 'styled-components'
 import {SkillsHeading} from './Skills'
+import {bm} from '../../secrets'
 
 // ====================== STYLED COMPONENTS ======================
 const AthleticLogo = styled.img`
@@ -84,11 +85,18 @@ const Title = styled.h4`
 // ===============================================================
 
 class ExpAndEdu extends Component {
+  constructor() {
+    super()
+    this.state = {
+      displayModal: false,
+    }
+    this.handleClick = this.handleClick.bind(this)
+  }
+
   handleClick() {
     document.getElementById('button').addEventListener('click', function () {
       document.querySelector('.bg-modal').style.display = 'flex'
     })
-
     document.querySelector('.close').addEventListener('click', function () {
       document.querySelector('.bg-modal').style.display = 'none'
     })
@@ -240,7 +248,7 @@ class ExpAndEdu extends Component {
             <h2 className="nameOfPlace">
               Better Man Show - New York City Metro Area
             </h2>
-            <CompanyLogos src="/logos/betterManlogo.png" />
+            <CompanyLogos src={bm} />
             <Title>Producer / Post-Production Supervisor (2017 - 2018)</Title>
             <ul className="responsibilities">
               <p className="bullet">

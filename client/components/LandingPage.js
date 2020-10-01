@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import {Helmet} from 'react-helmet'
 import {Link} from 'react-router-dom'
+import {landingimg, landingOverlay, codeSnippetImg} from '../../secrets'
 
 // ====================== STYLED COMPONENTS ======================
 const LandingContainer = styled.div`
@@ -11,14 +12,15 @@ const LandingContainer = styled.div`
 `
 
 const BackgroundOverlayImg = styled.img`
+  filter: blur(4px);
   height: 911px;
-  width: 77%;
-  opacity: 0.05;
+  width: 75%;
+  opacity: 0.06;
   position: absolute;
 `
 const BackgroundImg = styled.img`
   height: 911px;
-  width: 77%;
+  width: 74%;
   display: flex;
   // flex-grow;
   position: relative;
@@ -64,10 +66,10 @@ const LandingPage = () => {
       <Helmet>
         <title>Devin Knight | Software Engineer </title>
       </Helmet>
-      <BackgroundImg src="/photos/extra photos/photos/501_3872.JPG" />
-      <BackgroundOverlayImg src="/photos/extra photos/learn-code-e1455713167295.jpg" />
+      <BackgroundImg src={landingimg} />
+      <BackgroundOverlayImg src={landingOverlay} />
       <StyledButton to="/projects">
-        <ButtonImg src="/photos/extra photos/photos/Helper_Func_Code_Image.png" />
+        <ButtonImg src={codeSnippetImg} />
       </StyledButton>
     </LandingContainer>
   )

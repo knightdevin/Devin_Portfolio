@@ -197,7 +197,7 @@ form div {
 .projectsContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 80%;
+  width: 85%;
 }
 
 .projectBox {
@@ -242,12 +242,19 @@ form div {
 
 .youTubeLogo {
   height: 60px;
+  margin-bottom: -12px;
+  margin-top: -13px;
 }
 
 .miroBoardLogo {
   height: 37px;
   width: 53px;
   border-radius: 10px;
+}
+
+.gitHubLogo {
+  height: 39px;
+  width: 42px;
 }
 
 /* ================= SKILLS STYLES ================= */

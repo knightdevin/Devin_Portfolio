@@ -8,13 +8,14 @@ import styled from 'styled-components'
 const ProjectExtraLinks = styled.div`
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 50%;
   justify-content: space-evenly;
 `
 
 const SupplementalLinks = styled.a`
   display: flex;
   align-items: center;
+  flex-direction: column;
   // cursor: pointer;
   transition: 0.5s all ease-out;
 
@@ -31,6 +32,11 @@ const TechStack = styled.p`
   font-style: italic;
   text-align: center;
 `
+
+// const LogoBox = styled.div`
+//   display: flex;
+//   flex-direction: column;
+// `
 
 // NOTE: more on hover function & styled components at: https://www.robinwieruch.de/react-styled-components
 
@@ -73,7 +79,8 @@ const Projects = () => {
                 <img
                   src="/logos/hd-youtube-logo-png-transparent-background-20.png"
                   className="youTubeLogo"
-                />
+                />{' '}
+                Demo
               </SupplementalLinks>
               <SupplementalLinks
                 className="react-router__link"
@@ -83,12 +90,55 @@ const Projects = () => {
               >
                 {/* <h4>Wireframes</h4> */}
                 <img src="/logos/download.png" className="miroBoardLogo" />
+                Wireframes
+              </SupplementalLinks>
+              <SupplementalLinks
+                className="react-router__link"
+                href="https://github.com/Ultra-Punks/bramble"
+                rel="noopener noreferrer"
+                target="blank"
+              >
+                <img src="/logos/github - 25231.png" className="gitHubLogo" />
+                Code
               </SupplementalLinks>
             </ProjectExtraLinks>
             <ProjectEcoSystem>Bramble Data Ecosystem:</ProjectEcoSystem>
             <TechStack>
               Sequelize, Node.js, Express, React, Redux, Heroku, Mapbox, Google
               Cloud Vision, PostgreSQL
+            </TechStack>
+          </div>
+        </a>
+        <a
+          className="react-router__link"
+          href="https://devin-knight-portfolio.herokuapp.com/about"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div className="projectBox">
+            <h2 style={{fontSize: '25px'}}>Portfolio</h2>
+            <h4>Developer, 2020</h4>
+            <img src="/photos/portfolioPhoto.png" className="bramblePhoto" />
+            <p style={{fontSize: '18px'}}>
+              My portfolio site provides a glimpse into some of the projects
+              I've worked on and presents context into my background as a
+              developer. The site was built using React and Styled Components
+              and features a navbar for users to explore different pages.
+            </p>
+            <ProjectExtraLinks>
+              <SupplementalLinks
+                className="react-router__link"
+                href="https://github.com/knightdevin/Devin_Portfolio"
+                rel="noopener noreferrer"
+                target="blank"
+              >
+                <img src="/logos/github - 25231.png" className="gitHubLogo" />
+                Code
+              </SupplementalLinks>
+            </ProjectExtraLinks>
+            <ProjectEcoSystem>Portfolio Data Ecosystem:</ProjectEcoSystem>
+            <TechStack>
+              JavaScript, Node.js, React, Styled Components, Heroku, HTML 5, CSS
             </TechStack>
           </div>
         </a>
@@ -112,6 +162,15 @@ const Projects = () => {
               logged-in user. Admins have additional capabilities through a
               unique dashboard.
             </p>
+            <SupplementalLinks
+              className="react-router__link"
+              href="https://github.com/FSA-Guava/Hobby-Shopper"
+              rel="noopener noreferrer"
+              target="blank"
+            >
+              <img src="/logos/github - 25231.png" className="gitHubLogo" />
+              Code
+            </SupplementalLinks>
             <ProjectEcoSystem>Hobby Shopper Data Ecosystem:</ProjectEcoSystem>
             <TechStack>
               Sequelize, Express, React, Redux, Heroku, Node.js
@@ -136,6 +195,15 @@ const Projects = () => {
             scenes. The game is built using Object Oriented Programming through
             the Phaser 3 JavaScript framework.
           </p>
+          <SupplementalLinks
+            className="react-router__link"
+            href="https://github.com/knightdevin/Lucifer_Game"
+            rel="noopener noreferrer"
+            target="blank"
+          >
+            <img src="/logos/github - 25231.png" className="gitHubLogo" />
+            Code (Currently Private)
+          </SupplementalLinks>
           <ProjectEcoSystem>
             Lucifer Video Game Data Ecosystem:
           </ProjectEcoSystem>

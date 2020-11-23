@@ -33,11 +33,6 @@ const TechStack = styled.p`
   text-align: center;
 `
 
-// const LogoBox = styled.div`
-//   display: flex;
-//   flex-direction: column;
-// `
-
 // NOTE: more on hover function & styled components at: https://www.robinwieruch.de/react-styled-components
 
 // ===============================================================

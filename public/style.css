@@ -197,7 +197,7 @@ form div {
 .projectsContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 85%;
+  width: 90%;
 }
 
 .projectBox {

@@ -205,6 +205,7 @@ const Projects = () => {
           </TechStack>
         </div>
       </div>
+      <br />
     </div>
   )
 }

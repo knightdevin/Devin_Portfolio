@@ -347,6 +347,7 @@ class Skills extends React.Component {
               </div>
             </div>
           </div>
+          <br />
         </div>
       </div>
     )

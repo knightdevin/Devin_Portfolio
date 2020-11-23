@@ -75,7 +75,6 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {/* <h4>Presentation</h4> */}
                 <img
                   src="/logos/hd-youtube-logo-png-transparent-background-20.png"
                   className="youTubeLogo"
@@ -88,7 +87,6 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {/* <h4>Wireframes</h4> */}
                 <img src="/logos/download.png" className="miroBoardLogo" />
                 Wireframes
               </SupplementalLinks>

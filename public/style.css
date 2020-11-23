@@ -263,7 +263,7 @@ form div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 3%;
+  padding-top: 1%;
 }
 
 .subSkills_box {

@@ -104,8 +104,8 @@ const Projects = () => {
             </ProjectExtraLinks>
             <ProjectEcoSystem>Bramble Data Ecosystem:</ProjectEcoSystem>
             <TechStack>
-              Sequelize, Node.js, Express, React, Redux, Heroku, Mapbox, Google
-              Cloud Vision, PostgreSQL
+              Sequelize, Node.js, Express, React, Redux, Heroku, CSS, HTML 5,
+              Mapbox, Google Cloud Vision, PostgreSQL
             </TechStack>
           </div>
         </a>
@@ -173,7 +173,7 @@ const Projects = () => {
             </SupplementalLinks>
             <ProjectEcoSystem>Hobby Shopper Data Ecosystem:</ProjectEcoSystem>
             <TechStack>
-              Sequelize, Express, React, Redux, Heroku, Node.js
+              Sequelize, Express, React, Redux, Heroku, Node.js, CSS, HTML
             </TechStack>
           </div>
         </a>

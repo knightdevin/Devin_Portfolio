@@ -1,7 +1,7 @@
 {
   "name": "Devin_Portfolio",
   "version": "2.0.0",
-  "description": "A professional portfolio created by Devin Knight for Devin Knight (https://knightdevin.github.io/Devin_Portfolio/)",
+  "description": "A professional portfolio created by Devin Knight for Devin Knight (https://devin-knight-portfolio.herokuapp.com/about)",
   "engines": {
     "node": "~12.11.1"
   },

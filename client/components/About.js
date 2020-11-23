@@ -23,7 +23,7 @@ const About = () => {
       <div className="profilePhotosBox">
         <img
           className="profile_photo"
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQG0jHYiij1B8w/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=PynXeHxRxzJnD0N8onOD-HfqmsILUvKsQyLL53PgkJ8"
+          src="/photos/extra photos/photos/Devin - About Me photo.png"
         />
       </div>
       <AboutParagraph>
